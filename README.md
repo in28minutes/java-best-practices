@@ -74,13 +74,13 @@ Most important qualities I look for in an Architect are
 - Great Communication :  Communication in the widest sense. Communicating the technical aspects to the stakeholders, project management, software developers, testers, etc.
 
 ## SOAP Web Services
-![SOAP Web Services](SOAPWebServices.png)
+![SOAP Web Services](images/SOAPWebServices.png)
 
 ## REST Web Services
 - PDF https://www.mindmup.com/#m:g10B8KENIDghuHAYmFzM0daOU80SDA
 
 ## Distributed Cache
-![Distributed Cache](DistributedCache.png)
+![Distributed Cache](images/DistributedCache.png)
 
 ## Layers
 - PDF https://www.mindmup.com/#m:g10B8KENIDghuHAemVIS2RvT1JDOUE
@@ -116,10 +116,10 @@ Listed below are some of the important considerations
 # Tools
 
 ## Maven Best Practices 
-![Maven Best Practices](MavenBestPractices.png)
+![Maven Best Practices](images/MavenBestPractices.png)
 
 ## IDE - Eclipse
-![Eclipse](Eclipse.png)
+![Eclipse](images/Eclipse.png)
 
 # Practices
 
