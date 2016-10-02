@@ -172,26 +172,26 @@ Listed below are some of the important considerations
 [Unit Testing Best Practices](pdf/UnitTestingBestPractices.pdf)
 
 ##Architect Qualities
-!(images/ArchitectQualities.png)
+![Architect Qualities](images/ArchitectQualities.png)
 ##Architect Responsibilities
-!(images/ArchitectResponsibilities.png)
+![Architect Responsibilities](images/ArchitectResponsibilities.png)
 ##Architect Review
-!(images/ArchitectureReview.png)
+![Architect Review](images/ArchitectureReview.png)
 ##How to become a good programmer?
-!(images/BecomingAGreatProgrammer.png)
+![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
 ##Code Quality Overview
-!(images/CodeQuality.png)
+![Code Quality Overview](images/CodeQuality.png)
 ##Design
 ###Focus
-!(images/Design-Focus.png)
+![Focus](images/Design-Focus.png)
 ###Review
-!(images/DesignReview.png)
+![Review](images/DesignReview.png)
 ###Java Performance
-!(images/JavaPerformance.png)
+![Java Performance](images/JavaPerformance.png)
 ###Modern Development Practices
-!(images/ModernDevelopmentPracticesOverview.png)
+![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
 ###Static Code Analysis
-!(images/StaticCodeAnalysis.png)
+![Static Code Analysis](images/StaticCodeAnalysis.png)
 
 ## Code Reviews
 
