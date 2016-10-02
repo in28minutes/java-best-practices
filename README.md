@@ -119,7 +119,7 @@ Listed below are some of the important considerations
 ![Maven Best Practices](MavenBestPractices.png)
 
 ## IDE - Eclipse
-![Eclipse](Eclipse1.png)
+![Eclipse](Eclipse.png)
 
 # Practices
 
