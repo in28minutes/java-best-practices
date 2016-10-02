@@ -120,6 +120,7 @@ Listed below are some of the important considerations
 
 ## IDE - Eclipse
 ![Eclipse](images/Eclipse.png)
+[10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
 
 # Practices
 
