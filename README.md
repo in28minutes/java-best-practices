@@ -118,9 +118,15 @@ Listed below are some of the important considerations
 ## Maven Best Practices 
 ![Maven Best Practices](images/MavenBestPractices.png)
 
+###10 Tips For Maven
+[10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
+
 ## IDE - Eclipse
 ![Eclipse](images/Eclipse.png)
+
+###10 Tips For Eclipse
 [10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
+
 
 # Practices
 
@@ -129,6 +135,10 @@ Listed below are some of the important considerations
 - Architecture choices should be well thought out. Its good to spend some time to think (Sprint Zero) before you make a architectural choice.
 - I think most important part of Agile Architecture is Automation Testing. Change is continuous only when the team is sure nothing is broken. And automation test suites play a great role in providing immediate feedback.
 - Important principles for me are test early, fail fast and automate.
+
+###Agile and Design
+[Design in Agile Projects](pdf/AgileAndDesign-Evolution.pdf)
+
 
 ## Modern Development Practices
 - Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://www.youtube.com/watch?v=AN4NCnc4eZg&list=PL83C941BB0D27A6AF. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
@@ -158,6 +168,30 @@ Listed below are some of the important considerations
 
 ## Productive Developers
 
+##Unit Testing Best Practices
+[Unit Testing Best Practices](pdf/UnitTestingBestPractices.pdf)
+
+##Architect Qualities
+!(images/ArchitectQualities.png)
+##Architect Responsibilities
+!(images/ArchitectResponsibilities.png)
+##Architect Review
+!(images/ArchitectureReview.png)
+##How to become a good programmer?
+!(images/BecomingAGreatProgrammer.png)
+##Code Quality Overview
+!(images/CodeQuality.png)
+##Design
+###Focus
+!(images/Design-Focus.png)
+###Review
+!(images/DesignReview.png)
+###Java Performance
+!(images/JavaPerformance.png)
+###Modern Development Practices
+!(images/ModernDevelopmentPracticesOverview.png)
+###Static Code Analysis
+!(images/StaticCodeAnalysis.png)
 
 ## Code Reviews
 
@@ -166,6 +200,7 @@ Listed below are some of the important considerations
 
 ### Peer Reviews
 - PDF : https://www.mindmup.com/#m:g10B8KENIDghuHAbWdfWVdrVU1VMEU
+
 
 ### SONAR
 - One Slide from PDF - Making use of SONAR 
