@@ -74,13 +74,13 @@ Most important qualities I look for in an Architect are
 - Great Communication :  Communication in the widest sense. Communicating the technical aspects to the stakeholders, project management, software developers, testers, etc.
 
 ## SOAP Web Services
-[[images/SOAPWebServices.png]]
+[[SOAPWebServices.png]]
 
 ## REST Web Services
 - PDF https://www.mindmup.com/#m:g10B8KENIDghuHAYmFzM0daOU80SDA
 
 ## Distributed Cache
-[[images/DistributedCache.png]]
+[[DistributedCache.png]]
 
 ## Layers
 - PDF https://www.mindmup.com/#m:g10B8KENIDghuHAemVIS2RvT1JDOUE
@@ -118,10 +118,10 @@ Listed below are some of the important considerations
 ## Maven
 
 ### Best Practices 
-[[images/MavenBestPractices.png]]
+[[MavenBestPractices.png]]
 
 ## IDE
-[[images/Eclipse1.png]]
+[[Eclipse1.png]]
 
 # Practices
 
@@ -138,7 +138,7 @@ Listed below are some of the important considerations
 - BDD. In my experience, I found BDD a great tool to enable communication between the ready team (Business Analysts, Product Owner) and the done team (Developers, Testers, Operations). When User Stories are nothing but a set of scenarios specified is GWT (Given When Then) format, it is easy for the done team to chew at the user story scenario by scenario.  With tools like Cucumber & Fitnesse, tooling is not far behind too. Do check BDD out.
 - Refactoring. Is there an Architect who does not encounter bad code? Understand refactoring. Understand the role of automation tests in refactoring.
 - Continuous Integration. Every project today has continuous integration. But, the real question is “What is under Continuous Integration?”. Compilation, unit tests and code quality gate(s) is the bare minimum. If you have integration and chain tests, wonderful. But make sure the build does not take long. Immediate feedback is important. If needed, create a separate build scheduled less frequently for slower tests (integration and chain tests). Jenkins is the most popular Continuous Integration tool today.
-[[images/ModernDevelopmentPractices.png]]
+[[ModernDevelopmentPractices.png]]
 
 ### Important Questions
 - How often is code commited?
