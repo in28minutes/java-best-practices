@@ -1,10 +1,15 @@
-# java-best-practices
+# Java Best Practices
 Best practices in Coding, Designing and Architecting Java Applications
 
 
-# Coding
+## Coding
 
-## Code Quality
+###How to become a good programmer?
+![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
+
+###Code Quality Overview
+![Code Quality Overview](images/CodeQuality.png)
+
 - More than everything else, code quality is an attitude. Either, the team has it or not. The attitude to refactor when something is wrong. The attitude to be a boy scout. As an architect, it is important to create an environment where such an attitude is appreciated. (There are always bad sheep, who take the code quality to such depth that it is not fun anymore, but I like them more than developers who keep churning out bad code).
 - Have a good static analysis tool(and is part of Continuous Integration). Sonar is the best bet today. Understand the limits of Static Analysis. Static Analysis is not a magic wand. For me, results from Static Analysis are a signal: It helps me decide where I should look during peer or architect reviews?
 - Have good peer review practices in place. Every user story has to be peer reviewed. Put more focus on peer reviews when there is a new developer or there is a new technical change being done. Make best use of Pair Programming. The debate is ongoing : Is pair programming more productive or not? I would rather stay out of it. You make your choice. However,  these two scenarios are bare minimum:
@@ -24,7 +29,8 @@ Best practices in Coding, Designing and Architecting Java Applications
 - Be conscious about create as few objects as possible. Especially in loops.
 - Avoid String Concatenation
 - Close connections and Streams
-- 
+![Java Performance](images/JavaPerformance.png)
+
 ## Load and Performance Testing
 - PDF Presentation https://www.mindmup.com/#m:g10B8KENIDghuHAUjlYVmlfSllzTzg
 - Have clear performance objectives. That’s the single most important objective. Decide Peak Load, Expected Response Time, Availability Required before hand.
@@ -36,8 +42,9 @@ Best practices in Coding, Designing and Architecting Java Applications
 - Make sure team is not making premature optimizations. Any optimization decision should be based on numbers or past experience. In Donald Knuth's paper "Structured Programming With GoTo Statements", he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of non critical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
 - Have Clear Strategy on How to Handle expected load. What would be the initial settings on the application server? Do you plan to use a clustered environment? Do you need a load balancer?
 
-# Design
-## Design Focus Areas
+## Design
+###Design Focus Areas
+![Focus](images/Design-Focus.png)
 - 4 Principles of Simple Design. https://www.youtube.com/watch?v=OwS8ydVTx1c&list=PL066F8F24976D837C
  - Runs all tests
  - Minimize Duplication
@@ -56,36 +63,44 @@ Best practices in Coding, Designing and Architecting Java Applications
  - Deployment diagrams
 - Design Patterns. Following video covers all the major design patterns. https://www.youtube.com/watch?v=0jjNjXcYmAU. My personal view : Design Patterns are good to know. Have a good idea on what each one of them does. But, that where it ends. I’m not a big fan of understanding the intricate details of each Design Pattern. You can look it up if you have a good overall idea about Design Patterns.
 
-# Architecture
+###Design Review
+![Review](images/DesignReview.png)
+
+## Architecture
 - PDF : [https://www.mindmup.com/#m:g10B8KENIDghuHAZWh2SEhSNTdNNjA]
 
-##Great Architect
-- Creating a clean architecture based on sound principles. Architecture covering all Non Functional Requirements.
+### Architect Responsibilities
 - Having good governance in place. Good review processes in place for Architecture, Design and Code.
+- Creating a clean architecture based on sound principles. Architecture covering all Non Functional Requirements.
 - Ensuring teams are as productive as they can be. Right tools.
 - Ensuring teams are following the best engineering practices.
 - Ensuring clear communication about architecture with business and technical teams.
+![Architect Responsibilities](images/ArchitectResponsibilities.png)
 
-## Qualities
+### Architect Qualities
 Most important qualities I look for in an Architect are
 - Impeccable Credibility : Somebody the team looks up to and aspires to be.
 - Super diagnostic skills : The ability to do a deep dive on a technology issue. When developers are struggling with a problem (having tried different things),  Can he/she provide a fresh pair of eyes to look at the same problem?
 - Forward Thinker and Proactive : Never satisfied with where we are. Identifies opportunities to add value fast.
 - Great Communication :  Communication in the widest sense. Communicating the technical aspects to the stakeholders, project management, software developers, testers, etc.
+![Architect Qualities](images/ArchitectQualities.png)
 
-## SOAP Web Services
+###Architecture Review
+![Architecture Review](images/ArchitectureReview.png)
+
+### SOAP Web Services
 ![SOAP Web Services](images/SOAPWebServices.png)
 
-## REST Web Services
+### REST Web Services
 - PDF https://www.mindmup.com/#m:g10B8KENIDghuHAYmFzM0daOU80SDA
 
-## Distributed Cache
+### Distributed Cache
 ![Distributed Cache](images/DistributedCache.png)
 
-## Layers
+### Layers
 - PDF https://www.mindmup.com/#m:g10B8KENIDghuHAemVIS2RvT1JDOUE
 
-### Business Layer
+#### Business Layer
 Listed below are some of the important considerations
 - Should I have a Service layer acting as a facade to the Business Layer?
 - How do I implement Transaction Management? JTA or Spring based Transactions or Container Managed Transactions? What would mark the boundary of transactions. Would it be service facade method call?
@@ -96,14 +111,14 @@ Listed below are some of the important considerations
 - Are there any Operations specific logging or auditing that is needed?Can we implement it as a cross cutting concern using AOP?
 - Do we need to validate the data that is coming into the Business Layer? Or is the validation done by the web layer sufficient?
 
-### Data Layer
+#### Data Layer
 - Do we want to use a JPA based object mapping framework (Hibernate) or query based mapping framework (iBatis) or simple Spring DO?
 - How do we communicate with external systems? Web services or JMS? If web services, then how do we handle object xml mapping? JAXB or XMLBeans?
 - How do you handle connections to Database? These days, its an easy answer : leave it to the application server configuration of Data Source.
 - What are the kinos of exceptions that you want to throw to Business Layer? Should they be checked exceptions or unchecked exceptions?
 - Ensure that Performance and Scalability is taken care of in all the decisions you make.
 
-### Web Layer
+#### Web Layer
 - First question is do we want to use a modern front end javascript framework like AngularJS? If the answer is yes, most of this discussion does not apply. If the answer is no, then proceed?
 - Should we use a MVC framework like Spring MVC,Struts or should we go for a Java based framework like Wicket or Vaadin?
 - What should be the view technology?  JSP, JSF or Template Based (Velocity, Freemarker)?
@@ -113,24 +128,24 @@ Listed below are some of the important considerations
 - How do we Authenticate and Authorize users? Do we need to integrated external frameworks like Spring Security?
 - Do we need to expose external web services?
 
-# Tools
+## Tools
 
-## Maven Best Practices 
+### Maven Best Practices 
 ![Maven Best Practices](images/MavenBestPractices.png)
 
-###10 Tips For Maven
+#### 10 Tips For Maven
 [10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
 
-## IDE - Eclipse
+### IDE - Eclipse
 ![Eclipse](images/Eclipse.png)
 
-###10 Tips For Eclipse
+#### 10 Tips For Eclipse
 [10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
 
 
-# Practices
+## Practices
 
-## Agile and Architecture
+### Agile and Architecture
 - First of all I’m a great believer that agile and architecture go hand in hand. I do not believe agile means no architecture. I think agile brings in the need to separate architecture and design. For me architecture is about things which are difficult to change : technology choices, framework choices, communication between systems etc. It would be great if a big chunk of architectural decisions are made before the done team starts. There would always be things which are uncertain. Inputs to these can come from spikes that are done as part of the Done Scrum Team.But these should be planned ahead.
 - Architecture choices should be well thought out. Its good to spend some time to think (Sprint Zero) before you make a architectural choice.
 - I think most important part of Agile Architecture is Automation Testing. Change is continuous only when the team is sure nothing is broken. And automation test suites play a great role in providing immediate feedback.
@@ -140,7 +155,8 @@ Listed below are some of the important considerations
 [Design in Agile Projects](pdf/AgileAndDesign-Evolution.pdf)
 
 
-## Modern Development Practices
+### Modern Development Practices
+![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
 - Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://www.youtube.com/watch?v=AN4NCnc4eZg&list=PL83C941BB0D27A6AF. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
 - Automated Integration Tests. Automated Integration Tests is the second important bullet in enabling continuous delivery. Understand Fitnesse, Cucumber and Protractor.
 - TDD (actually I wanted to put it first). Understand what TDD is. If you have never used TDD, then be ready for a rude shock.  Its not easy to change a routine you developed during decades (or years) of programming. Once you are used to TDD you never go back. I promise. This list of videos is a good start to understanding TDD. https://www.youtube.com/watch?v=xubiP8WoT4E&list=PLBD6D61C0A9F671F6. Have fun.
@@ -149,7 +165,7 @@ Listed below are some of the important considerations
 - Continuous Integration. Every project today has continuous integration. But, the real question is “What is under Continuous Integration?”. Compilation, unit tests and code quality gate(s) is the bare minimum. If you have integration and chain tests, wonderful. But make sure the build does not take long. Immediate feedback is important. If needed, create a separate build scheduled less frequently for slower tests (integration and chain tests). Jenkins is the most popular Continuous Integration tool today.
 [[ModernDevelopmentPractices.png]]
 
-### Important Questions
+#### Important Questions
 - How often is code commited?
 - How early are problems/defects found/fixed?
 -- Code Quality, Code Review, ST Defects 
@@ -166,34 +182,15 @@ Listed below are some of the important considerations
  - Chain Tests
 - How long does a Continuous Integration build run for? Is there a need for multiple builds?
 
-## Productive Developers
+### Productive Developers
 
-##Unit Testing Best Practices
+### Unit Testing Best Practices
 [Unit Testing Best Practices](pdf/UnitTestingBestPractices.pdf)
 
-##Architect Qualities
-![Architect Qualities](images/ArchitectQualities.png)
-##Architect Responsibilities
-![Architect Responsibilities](images/ArchitectResponsibilities.png)
-##Architect Review
-![Architect Review](images/ArchitectureReview.png)
-##How to become a good programmer?
-![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
-##Code Quality Overview
-![Code Quality Overview](images/CodeQuality.png)
-##Design
-###Focus
-![Focus](images/Design-Focus.png)
-###Review
-![Review](images/DesignReview.png)
-###Java Performance
-![Java Performance](images/JavaPerformance.png)
-###Modern Development Practices
-![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
+### Code Reviews
+
 ###Static Code Analysis
 ![Static Code Analysis](images/StaticCodeAnalysis.png)
-
-## Code Reviews
 
 ### Good Code
 - PDF : https://www.mindmup.com/#m:g10B8KENIDghuHANmRyVmpGb3lINEE
@@ -201,13 +198,12 @@ Listed below are some of the important considerations
 ### Peer Reviews
 - PDF : https://www.mindmup.com/#m:g10B8KENIDghuHAbWdfWVdrVU1VMEU
 
-
 ### SONAR
 - One Slide from PDF - Making use of SONAR 
 - https://www.mindmup.com/#m:g10B8KENIDghuHAbWdfWVdrVU1VMEU
 
 
-# Indian IT
+## Indian IT
 
-# Campus Interview Guide
+## Campus Interview Guide
 - https://docs.google.com/document/d/1IP6HNgpMdCAAJEREowfBj2XPLBrPcIIFNIGFPGX0-ao/edit#heading=h.byb5dl2v0c4p
