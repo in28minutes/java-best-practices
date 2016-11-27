@@ -134,7 +134,6 @@ Best practices in Coding, Designing and Architecting Java Applications
  - Onboarding a new programmer. Makes him comfortable with all the new things he has to encounter.
  - Implementing a complex functionality.
 - Next question is how to approach a Code Review. Difficult to cover everything. I would make a start. When doing a code review, I start with static analysis results (for example, sonar). I spend 10 minutes getting an overview of components and/or layers (focusing on size and dependencies). Next I would pick up a unit test for a complex functionality. I feel unit tests are the best place to discover the dependencies and naming practices (I believe good names = 50% of maintainable code). If a programmer can write a simple and understandable unit test, he can definitely write good code. Next, I look for 4 principles of Simple Design. After this, there are 100 other things we can look for - You decide.
-- PDF - https://www.mindmup.com/#m:a1972695706ab201340d4b0beac29b8bfc
 
 ### Why should you not take code quality tools at face value?
 - If a project has a great Sonar report, does it mean it is perfect? 
@@ -144,7 +143,7 @@ Best practices in Coding, Designing and Architecting Java Applications
 
 ## Security
 Hmmm... Should I really explain the importance of Security?
-https://www.mindmup.com/#m:g10B8KENIDghuHAWTRsUERvVzUxZTA
+Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pdf/SecuringYourApplication-OWASP.pdf
 
 ## Performance
 
@@ -160,7 +159,7 @@ https://www.mindmup.com/#m:g10B8KENIDghuHAWTRsUERvVzUxZTA
 ![Java Performance](images/JavaPerformance.png)
 
 ## Load and Performance Testing
-- PDF Presentation https://www.mindmup.com/#m:g10B8KENIDghuHAUjlYVmlfSllzTzg
+- PDF Presentation https://github.com/in28minutes/java-best-practices/blob/master/pdf/LoadAndPerformanceTestingBestPractices.pdf
 - Have clear performance objectives. That’s the single most important objective. Decide Peak Load, Expected Response Time, Availability Required before hand.
 - Establish clear performance expectations with the Interface Services
 - An application does not work on its own. It connects with a number of external interfaces. Establish clear performance expectations with the Interface Services
@@ -195,7 +194,7 @@ https://www.mindmup.com/#m:g10B8KENIDghuHAWTRsUERvVzUxZTA
 ![Review](images/DesignReview.png)
 
 ## Architecture
-- PDF : [https://www.mindmup.com/#m:g10B8KENIDghuHAZWh2SEhSNTdNNjA]
+- PDF - How to be a good architect : https://github.com/in28minutes/java-best-practices/blob/master/pdf/How%20to%20be%20a%20good%20Software%20Architect.pdf
 
 ### Architect Responsibilities
 - Having good governance in place. Good review processes in place for Architecture, Design and Code.
@@ -220,7 +219,7 @@ Most important qualities I look for in an Architect are
 ![SOAP Web Services](images/SOAPWebServices.png)
 
 ### REST Web Services
-- PDF https://www.mindmup.com/#m:g10B8KENIDghuHAYmFzM0daOU80SDA
+- PDF TO UPDATE https://www.mindmup.com/#m:g10B8KENIDghuHAYmFzM0daOU80SDA
 
 #### How should you document your REST Web Services?
 - Swagger
@@ -229,7 +228,7 @@ Most important qualities I look for in an Architect are
 ![Distributed Cache](images/DistributedCache.png)
 
 ### Layers
-- PDF https://www.mindmup.com/#m:g10B8KENIDghuHAemVIS2RvT1JDOUE
+- PDF https://github.com/in28minutes/java-best-practices/blob/master/pdf/LayeringInJavaApplications.pdf
 
 #### Business Layer
 Listed below are some of the important considerations
@@ -323,16 +322,14 @@ Listed below are some of the important considerations
 ###Static Code Analysis
 ![Static Code Analysis](images/StaticCodeAnalysis.png)
 
-### Good Code
-- PDF : https://www.mindmup.com/#m:g10B8KENIDghuHANmRyVmpGb3lINEE
-
-### Peer Reviews
-- PDF : https://www.mindmup.com/#m:g10B8KENIDghuHAbWdfWVdrVU1VMEU
+### Code Quality
+https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
+### Code Reviews
+- PDF : https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeReview-BestPractices.pdf
 
 ### SONAR
 - One Slide from PDF - Making use of SONAR 
-- https://www.mindmup.com/#m:g10B8KENIDghuHAbWdfWVdrVU1VMEU
-
+- https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
 
 ## Indian IT
 ### How to create Good Programmers?
