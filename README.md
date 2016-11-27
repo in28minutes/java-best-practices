@@ -142,6 +142,10 @@ Best practices in Coding, Designing and Architecting Java Applications
 - Your focus should be to write code that adheres to "4 Principles of Simple Design"
 - Peer Reviews are necessary!
 
+## Security
+Hmmm... Should I really explain the importance of Security?
+https://www.mindmup.com/#m:g10B8KENIDghuHAWTRsUERvVzUxZTA
+
 ## Performance
 
 - First and Foremost - NO premature optimizations. Any optimization decision should be based on numbers or past experience. In Donald Knuth's paper "Structured Programming With GoTo Statements", he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of non critical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
