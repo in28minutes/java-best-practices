@@ -182,13 +182,15 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
  - Cohesion : https://www.youtube.com/watch?v=BkcQWoF5124&list=PLBBog2r6uMCTJ5JLyOySaOTrYdpWq48vK&index=9
  - Encapsulation
  - Polymorphism : https://www.youtube.com/watch?v=t8PTatUXtpI&list=PL91AF2D4024AA59AF&index=5
- - SOLID Principles
+ - SOLID Principles : https://github.com/in28minutes/java-best-practices/blob/master/pdf/SOLIDPrinciples.pdf
 - UML is next even though, formal use of UML is on the way down with Agile. However, I think UML is a great tool in the arsenal for a white board discussion on design. A picture is worth thousand words. I recommend having a good overview of the UML basics. Focus on these four before you move on to others.
  - Class diagrams
  - Sequence diagrams
  - Component diagrams
  - Deployment diagrams
 - Design Patterns. Following video covers all the major design patterns. https://www.youtube.com/watch?v=0jjNjXcYmAU. My personal view : Design Patterns are good to know. Have a good idea on what each one of them does. But, that where it ends. I’m not a big fan of understanding the intricate details of each Design Pattern. You can look it up if you have a good overall idea about Design Patterns.
+https://github.com/in28minutes/java-best-practices/blob/master/pdf/DesignPatternsForBeginners.pdf
+https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20EE)%20Design%20Patterns%20and%20Architecture.pdf
 
 ###Design Review
 ![Review](images/DesignReview.png)
