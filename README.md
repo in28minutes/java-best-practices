@@ -2,7 +2,6 @@
 I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. If you have feedback, contact me on my website http://www.in28minutes.com.
 
 ## Journey of a Programmer
-
 ### How to become a good programmer?
 ![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
 
@@ -48,12 +47,29 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 
 ### Code Quality
+###Code Quality Overview
+![Code Quality Overview](images/CodeQuality.png)
+
+- More than everything else, code quality is an attitude. Either, the team has it or not. The attitude to refactor when something is wrong. The attitude to be a boy scout. As an architect, it is important to create an environment where such an attitude is appreciated. (There are always bad sheep, who take the code quality to such depth that it is not fun anymore, but I like them more than developers who keep churning out bad code).
+- Have a good static analysis tool(and is part of Continuous Integration). Sonar is the best bet today. Understand the limits of Static Analysis. Static Analysis is not a magic wand. For me, results from Static Analysis are a signal: It helps me decide where I should look during peer or architect reviews?
+- Have good peer review practices in place. Every user story has to be peer reviewed. Put more focus on peer reviews when there is a new developer or there is a new technical change being done. Make best use of Pair Programming. The debate is ongoing : Is pair programming more productive or not? I would rather stay out of it. You make your choice. However,  these two scenarios are bare minimum:
+ - Onboarding a new programmer. Makes him comfortable with all the new things he has to encounter.
+ - Implementing a complex functionality.
+- Next question is how to approach a Code Review. Difficult to cover everything. I would make a start. When doing a code review, I start with static analysis results (for example, sonar). I spend 10 minutes getting an overview of components and/or layers (focusing on size and dependencies). Next I would pick up a unit test for a complex functionality. I feel unit tests are the best place to discover the dependencies and naming practices (I believe good names = 50% of maintainable code). If a programmer can write a simple and understandable unit test, he can definitely write good code. Next, I look for 4 principles of Simple Design. After this, there are 100 other things we can look for - You decide.
+
+### Why should you not take code quality tools at face value?
+- If a project has a great Sonar report, does it mean it is perfect? 
+- Nope, code quality tools are just a guidance!
+- Your focus should be to write code that adheres to "4 Principles of Simple Design"
+- Peer Reviews are necessary!
 #### Why should you have coding standards?
 #### What are the most important coding standards?
 - Complexity of a method
 - Naming variables, methods and classes
 - Size of methods and classes
 - Number of parameters
+### What is Pair Programming?
+### Why is readable code important?
 ### Code Quality
 https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
 #### Static Code Analysis
@@ -73,6 +89,7 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
 #### Why is performance of Unit Tests important?
 
 ### What is TDD?
+#### Why should you write unit tests with/before code?
 
 ### What is BDD?
 
@@ -111,6 +128,7 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
 ###Agile and Design
 [Design in Agile Projects](pdf/AgileAndDesign-Evolution.pdf)
 #### Evolutionary Design
+### What are the 4 Principles of Simple Design?
 ###Design Focus Areas
 ![Focus](images/Design-Focus.png)
 - 4 Principles of Simple Design. https://www.youtube.com/watch?v=OwS8ydVTx1c&list=PL066F8F24976D837C
@@ -196,6 +214,7 @@ Listed below are some of the important considerations
 - Personal Experience with Deployment Automation, Providing user screen with requests/responses
 
 ### Component Based Architecture
+#### Why should you create small components?
 
 ## How to be a good architect?
 - PDF - How to be a good architect : https://github.com/in28minutes/java-best-practices/blob/master/pdf/How%20to%20be%20a%20good%20Software%20Architect.pdf
@@ -232,68 +251,19 @@ Most important qualities I look for in an Architect are
 
 #### 10 Tips For Eclipse
 [10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
-
-## Frameworks
-## Performance
-### Why should you optimize judiciously?
-### How can you increase performance and reliability of applications using Queues?
-
-### Distributed Cache
-![Distributed Cache](images/DistributedCache.png)
-
-## Security
-
-
-
-### Why should you create small components?
-
-### Why should you migrate to GIT?
-
-### What are the 4 Principles of Simple Design?
-
-### What is Pair Programming?
-
-### Why is readable code important?
-
-### What is component based architecture?
-
-### Why should you commit your code often? 
-
-
-
-
-### Why should you write unit tests with/before code?
-
-### What are version control best practices
+### Version Control
+#### Why should you migrate to GIT?
+#### Why should you commit your code often? 
+#### What are version control best practices
 - Do not commit derived files.
 - Do not commit IDE files.
 - Commit often
 - Use Git
-
-### Why do Stateless applications perform better?
-
-###Code Quality Overview
-![Code Quality Overview](images/CodeQuality.png)
-
-- More than everything else, code quality is an attitude. Either, the team has it or not. The attitude to refactor when something is wrong. The attitude to be a boy scout. As an architect, it is important to create an environment where such an attitude is appreciated. (There are always bad sheep, who take the code quality to such depth that it is not fun anymore, but I like them more than developers who keep churning out bad code).
-- Have a good static analysis tool(and is part of Continuous Integration). Sonar is the best bet today. Understand the limits of Static Analysis. Static Analysis is not a magic wand. For me, results from Static Analysis are a signal: It helps me decide where I should look during peer or architect reviews?
-- Have good peer review practices in place. Every user story has to be peer reviewed. Put more focus on peer reviews when there is a new developer or there is a new technical change being done. Make best use of Pair Programming. The debate is ongoing : Is pair programming more productive or not? I would rather stay out of it. You make your choice. However,  these two scenarios are bare minimum:
- - Onboarding a new programmer. Makes him comfortable with all the new things he has to encounter.
- - Implementing a complex functionality.
-- Next question is how to approach a Code Review. Difficult to cover everything. I would make a start. When doing a code review, I start with static analysis results (for example, sonar). I spend 10 minutes getting an overview of components and/or layers (focusing on size and dependencies). Next I would pick up a unit test for a complex functionality. I feel unit tests are the best place to discover the dependencies and naming practices (I believe good names = 50% of maintainable code). If a programmer can write a simple and understandable unit test, he can definitely write good code. Next, I look for 4 principles of Simple Design. After this, there are 100 other things we can look for - You decide.
-
-### Why should you not take code quality tools at face value?
-- If a project has a great Sonar report, does it mean it is perfect? 
-- Nope, code quality tools are just a guidance!
-- Your focus should be to write code that adheres to "4 Principles of Simple Design"
-- Peer Reviews are necessary!
-
-## Security
-Hmmm... Should I really explain the importance of Security?
-Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pdf/SecuringYourApplication-OWASP.pdf
+## Frameworks
 
 ## Performance
 
+### Good Practices
 - First and Foremost - NO premature optimizations. Any optimization decision should be based on numbers or past experience. In Donald Knuth's paper "Structured Programming With GoTo Statements", he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of non critical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
 - Session size - Small
 - Implement Caching whereever possible
@@ -305,7 +275,13 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - Close connections and Streams
 ![Java Performance](images/JavaPerformance.png)
 
-## Load and Performance Testing
+### Why do Stateless applications perform better?
+### Why should you optimize judiciously?
+### How can you increase performance and reliability of applications using Queues?
+
+### Distributed Cache
+![Distributed Cache](images/DistributedCache.png)
+### Load and Performance Testing
 - PDF Presentation https://github.com/in28minutes/java-best-practices/blob/master/pdf/LoadAndPerformanceTestingBestPractices.pdf
 - Have clear performance objectives. That’s the single most important objective. Decide Peak Load, Expected Response Time, Availability Required before hand.
 - Establish clear performance expectations with the Interface Services
@@ -316,14 +292,9 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - Make sure team is not making premature optimizations. Any optimization decision should be based on numbers or past experience. In Donald Knuth's paper "Structured Programming With GoTo Statements", he wrote: "Programmers waste enormous amounts of time thinking about, or worrying about, the speed of non critical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
 - Have Clear Strategy on How to Handle expected load. What would be the initial settings on the application server? Do you plan to use a clustered environment? Do you need a load balancer?
 
-
-
-
-
-
-
-
-
+## Security
+Hmmm... Should I really explain the importance of Security?
+Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pdf/SecuringYourApplication-OWASP.pdf
 
 ## Indian IT
 ### How to create Good Programmers?
@@ -336,6 +307,7 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - Mockito vs EasyMock
 - Mockito vs JUnit
 - Microservices vs SOA
+- GIT vs SVN
 
 ##Images
 - Queue : https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The-amqp-model-for-wikipedia.svg/1024px-The-amqp-model-for-wikipedia.svg.png
