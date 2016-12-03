@@ -109,7 +109,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 ![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
 
 ### Ask Why?
-- Ask Why?
+- Question Everything!
 
 ### Programming FAQ
 
@@ -120,25 +120,48 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 - Java Design Patterns : https://github.com/in28minutes/Design-Patterns-For-Beginners/blob/master/DesignPatterns-Presentation.pdf
 
 #### What are NFRs?
-
+- Performance
+- Scalability
+- Maintainability
+- Portability
+- Availability
+- Security 
+- Testability etc..
 
 ## Coding
 
 ### Java Tips
+
 #### Why should you have minimum scope for variables?
+
 #### Why should you understand performance of String Concatenation?
+
 #### What are the best practices with Exception Handling?
+- Do not ignore exceptions
+- When coding, think what will the guy debugging a problem here would need?
+- Microservices - Centralized logging & correlation id
+
 #### When is it recommended to prefer Unchecked Exceptions?
 - Spring Framework
+
 #### When do you use a Marker Interface?
+
 #### Why are ENUMS important for Readable Code?
+
+#### Avoid String when other types are appropriate
+
 #### Why should you minimize mutability?
+
 #### What is functional programming?
+
 #### Why should you prefer Builder Pattern to build complex objects?
+
 #### Why should you avoid floats for Calculations?
+
 #### Why should you build the riskiest high priority features first?
 
 ### Code Quality
+
 #### Code Quality Overview
 ![Code Quality Overview](images/CodeQuality.png)
 - An overview : https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
@@ -196,7 +219,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 #### Why is performance of Unit Tests important?
 
-#### Do not be fooled by Code Coverage?
+#### Do not be fooled by Code Coverage!
 
 #### Why should a good programmer understand Mocking?
 
@@ -247,6 +270,11 @@ I've been Programming, Designing and Architecting Java applications for 15 years
  - Minimize Duplication
  - Maximize Clarity
  - Keep it Small
+-- Code - Method, Class, jar etc
+-- Component
+-- Cycle Time (Short cycles)
+-- Team Size
+ 
 - Object Oriented Programming. Have good object, which have well-defined responsibilities.  Following are the important concepts you need to have a good overview of. These are covered in various parts in the video https://www.youtube.com/watch?v=0xcgzUdTO5M. Also, look up the specific videos for each topic.
  - Coupling :
  - Cohesion : https://www.youtube.com/watch?v=BkcQWoF5124&list=PLBBog2r6uMCTJ5JLyOySaOTrYdpWq48vK&index=9
@@ -313,21 +341,162 @@ Listed below are some of the important considerations
 - Do we need to expose external web services?
 
 ### Web Services
-
-### SOAP Web Services
 ![SOAP Web Services](images/SOAPWebServices.png)
+![Example Web Service](http://3.bp.blogspot.com/-RSSyK3JhGhw/VVTOQyaX2jI/AAAAAAAAAL8/BZL6jYEZXL4/s640/WebService_BrowserGoogle.png)
+- Service Provider : Google.com is the service provider. Handles the request and sends a response back.
+- Service Consumer : Browser is the service consumer. Creates Request. Invokes Service. Processes the Response.
+- Data Exchange Format : In this example, Data Exchange is done over HTTP protocol. Request is HTTP request and Response is HTTP Response. Data exchange format can be something else as well. SOAP (in case of SOAP web services) and JSON (most RESTful services).
 
-### REST Web Services
+####Advantages
+- Re-use : Web services avoid the need to implement business logic repeatedly. If we expose a web service, other applications can re-use the functionality
+- Modularity : For example, tax calculation can be implemented as a service and all the applications that need this feature can invoke the tax calculation web service. Leads to very modular application architecture.
+- Language Neutral : Web services enable communication between systems using different programming languages and different architectures. For example, following systems can talk with each other : Java, .Net, Mainframes etc.
+- Web Services are the fundamental blocks of implementing Service Oriented Architecture in an organization.
+
+#### SOAP Web Services
+![SOAP Web Services](http://4.bp.blogspot.com/-DyySh3d6XUs/VVTOTSlv3RI/AAAAAAAAAMQ/MGYhbgtYuo4/s640/WebService_SoapMessge.png)
+- In SOAP web services, data exchange (request and responses) happens using SOAP format. SOAP is based on XML.
+- SOAP format defines a SOAP-Envelope which envelopes the entire document. SOAP-Header (optional) contains any information needed to identify the request. Also, part of the Header is authentication, authorization information (signatures, encrypted information etc). SOAP-Body contains the real xml content of request or response.
+- All the SOAP web services use this format for exchanging requests and responses. In case of error response, server responds back with SOAP-Fault.
+
+##### WSDL
+WSDL defines the format for a SOAP Message exchange between the Server (Service Provider) and the Client (Service Consumer).
+
+A WSDL defines the following:
+- What are the different services (operations) exposed by the server?
+- How can a service (operation) be called? What url to use? (also called End Point).
+- What should the structure of request xml?
+- What should be the structure of response xml?
+
+##### Marshalling and Unmarshalling
+![Marshalling and Unmarshalling](http://1.bp.blogspot.com/-HsuVLQuzNIs/VVVh4yvb2-I/AAAAAAAAAMk/xy4B1YcirbU/s400/WebService_Marshalling.png)
+SOAP web services use SOAP based XML format for communication. Java applications work with beans i.e. java objects. For an application to expose or consume SOAP web services, we need two things
+- Convert Java object to SOAP xml. This is called Marshalling.
+- Convert SOAP xml to Java object. This is called Unmarshalling.
+JAXB and XMLBeans are frameworks which enable use to do marshalling and unmarshalling easily.
+
+##### Security
+- At transport level, SSL is used to exchange certificates (HTTPS). This ensures that the server (service producer) and client (service consumer) are mutually authenticated. It is possible to use one way SSL authentication as well.
+- At the application level, security is implemented by transferring encrypted information (digital signatures, for example) in the message header (SOAP Header). This helps the server to authenticate the client and be confident that the message has not been tampered with.
+
+#### REST Web Services
 - PDF TO UPDATE https://www.mindmup.com/#m:g10B8KENIDghuHAYmFzM0daOU80SDA
+- There are a set of architectural constraints (we will discuss them shortly) called Rest Style Constraints. Any service which satisfies these constraints is called RESTful Web Service.
+- There are a lot of misconceptions about REST Web Services : They are over HTTP , based on JSON etc. Yes : More than 90% of RESTful Web Services are JSON over HTTP. But these are not necessary constraints. We can have RESTful Web Services which are not using JSON and which are not over HTTP.
 
-#### How should you document your REST Web Services?
-- Swagger
+##### Constraints
+The five important constraints for RESTful Web Service are
+- Client - Server : There should be a service producer and a service consumer.
+- The interface (URL) is uniform and exposing resources. Interface uses nouns (not actions)
+- The service is stateless. Even if the service is called 10 times, the result must be the same.
+- The service result should be Cacheable. HTTP cache, for example.
+- Service should assume a Layered architecture. Client should not assume direct connection to server - it might be getting info from a middle layer - cache.
+
+##### Richardson Maturity Model
+Richardson Maturity Model defines the maturity level of a Restful Web Service. Following are the different levels and their characteristics.
+- Level 0 : Expose SOAP web services in REST style. Expose action based services (http://server/getPosts, http://server/deletePosts, http://server/doThis, http://server/doThat etc) using REST.
+- Level 1 : Expose Resources with proper URI’s (using nouns). Ex: http://server/accounts, http://server/accounts/10. However, HTTP Methods are not used.
+- Level 2 : Resources use proper URI's + HTTP Methods. For example, to update an account, you do a PUT to . The create an account, you do a POST to . Uri’s look like posts/1/comments/5 and accounts/1/friends/1.
+- Level 3 : HATEOAS (Hypermedia as the engine of application state). You will tell not only about the information being requested but also about the next possible actions that the service consumer can do. When requesting information about a facebook user, a REST service can return user details along with information about how to get his recent posts, how to get his recent comments and how to retrieve his friend’s list.
+
+##### RESTful API Best Practices
+- Needs more work
+- While designing any API, the most important thing is to think about the api consumer i.e. the client who is going to use the service. What are his needs? Does the service uri make sense to him? Does the request, response format make sense to him?
+- URI’s should be hierarchical and as self descriptive as possible. Prefer plurals.
+- Always use HTTP Methods. Best practices with respect to each HTTP method is described below:
+-- GET : Should not update anything. Should be idempotent (same result in multiple calls). Possible Return Codes 200 (OK) + 404 (NOT FOUND) +400 (BAD REQUEST)
+-- POST : Should create new resource. Ideally return JSON with link to newly created resource. Same return codes as get possible. In addition : Return code 201 (CREATED) is possible.
+-- PUT : Update a known resource. ex: update client details. Possible Return Codes : 200(OK)
+-- DELETE : Used to delete a resource.
+
+##### JAX-RS
+JAX-RS is the JEE Specification for Restful web services implemented by all JEE compliant web servers (and application servers).
+Important Annotations
+- @ApplicationPath("/"). @Path("users") : used on class and methods to define the url path.
+- @GET @POST : Used to define the HTTP method that invokes the method.
+- @Produces(MediaType.APPLICATION_JSON) : Defines the output format of Restful service.
+- @Path("/{id}") on method (and) @PathParam("id") on method parameter : This helps in defining a dynamic parameter in Rest URL. @Path("{user_id}/followers/{follower_id}") is a more complicated example.
+- @QueryParam("page") : To define a method parameter ex: /users?page=10.
+
+Useful methods:
+- Response.OK(jsonBuilder.build()).build() returns json response with status code.
+- Json.createObjectBuilder(). add("id",user.getId()); creates a user object.
+
+##### How should you document your REST Web Services?
+- Swagger is the popular option
+- Restdocs is popular too
 
 ### Microservices Architecture
+http://eugenedvorkin.com/wp-content/uploads/2014/06/micro-service-architecture.png
+- Challenges with Monolith Applications - Longer Release Cycles because of Large Size, Large Teams and difficulty in adopting Automation testing and modern development practices
+- “Keep it Small”. Small deployable components.
+- Flights
+-- Points
+-- Offers
+-- Trips
+- Customer
+-- Product
+-- Order
+-- Recommendations
+- Key question to ask : Can we make a change to a service and deploy it by itself without changing anything else?
+
+#### Microservices Characteristics
+- Small, Lightweight
+- Loosely coupled service-oriented architectures with bounded contexts
+- Bounded Scope, Limited Scope, Solve one problem well
+- Interoperable with message based communication
+- Independently deployable and testable services
+- Building systems that are replaceable over being maintainable
+- “Smart endpoints and dump pipes”
+
+#### Advantages
+- Faster Time To Market
+- Complete Automation Possibility
+- Experimentation
+- Technology Evolution
+- Speed of innovation
+- Team Autonomy : Enables creation of independent teams with End-to-End ownership
+- Deployment Simplicity
+- Flexible Scaling
+
+#### Challenges
+- Visibility
+- Standardization
+- Operations Team
+- Determining Boundaries
+
+
+#### What is the difference between Microservices and SOA?
+Microservices have similar goals from SOA : Create services around your business logic.
+
+Key Differences
+- Big vendors hijacked SOA to link SOA with products like Enterprise Services Bus (Websphere ESB, Oracle ESB, TIBCO Business Works) etc
+- SOA was tied to XML and its formalities and complexities
+- SOA had centralized governance whereas microservice architecture recommends a decentralized governance.
+- SOA did not focus on the independent deployability of the components.
+- ESB was brought in to enable loose coupling for SOA based systems. The complexity with the ESBs etc in SOA lead to coining the term “dumb pipes smart endpoints”
+Example:
+![SOA](images/SOA-For-Sales-App.png)
+- Consider a banking application selling multiple products
+- Along with Saving Account, a customer gets a Debit Card Free and a Insurance
+Saving Account and Debit Card are different products managed by different product systems
+- In SOA Architecture, the ESB took the order request from the sales application and handled the communication with creating the appropriate products. ESB ends up having a lot of logic. Heavy weight ESB. 
+- Microservices use more of an event driven architecture!
 
 #### What are Cloud Native Applications?
-
-#### What are micro-services?
+- 12 Factor App
+- Codebase - One codebase tracked in revision control, many deploys
+- Dependencies - Explicitly declare and isolate dependencies
+- Config - Store config in the environment
+- Backing services - Treat backing services as attached resources
+- Build, release, run - Strictly separate build and run stages
+- Processes - Execute the app as one or more stateless processes
+- Port binding - Export services via port binding
+- Concurrency - Scale out via the process model
+- Disposability - Maximize robustness with fast startup and graceful shutdown
+- Dev/prod parity - Keep development, staging, and production as similar as possible
+- Logs - Treat logs as event streams
+- Admin processes - Run admin/management tasks as one-off processes
 
 #### Why is it important to have an API Standard?
 - YARAS
@@ -411,6 +580,7 @@ Most important qualities I look for in an Architect are
 - In critical parts - write unit tests for performance.
 - Be conscious about create as few objects as possible. Especially in loops.
 - Avoid String Concatenation
+- Eliminate Obselete Object References
 - Close connections and Streams
 ![Java Performance](images/JavaPerformance.png)
 
