@@ -22,34 +22,23 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 ## Coding
 
 ### Java Tips
-### Why should you have minimum scope for variables?
-
-### Why should you understand performance of String Concatenation?
-
-### What are the best practices with Exception Handling?
-
-### When is it recommended to prefer Unchecked Exceptions?
+#### Why should you have minimum scope for variables?
+#### Why should you understand performance of String Concatenation?
+#### What are the best practices with Exception Handling?
+#### When is it recommended to prefer Unchecked Exceptions?
 - Spring Framework
-
-### When do you use a Marker Interface?
-
-### Why are ENUMS important for Readable Code?
-
-### Why should you minimize mutability?
-
-### What is functional programming?
-
-### Why should you prefer Builder Pattern to build complex objects?
-
-### Why should you avoid floats for Calculations?
-
-### Why should you build the riskiest high priority features first?
-
+#### When do you use a Marker Interface?
+#### Why are ENUMS important for Readable Code?
+#### Why should you minimize mutability?
+#### What is functional programming?
+#### Why should you prefer Builder Pattern to build complex objects?
+#### Why should you avoid floats for Calculations?
+#### Why should you build the riskiest high priority features first?
 
 ### Code Quality
-###Code Quality Overview
+#### Code Quality Overview
 ![Code Quality Overview](images/CodeQuality.png)
-
+https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
 - More than everything else, code quality is an attitude. Either, the team has it or not. The attitude to refactor when something is wrong. The attitude to be a boy scout. As an architect, it is important to create an environment where such an attitude is appreciated. (There are always bad sheep, who take the code quality to such depth that it is not fun anymore, but I like them more than developers who keep churning out bad code).
 - Have a good static analysis tool(and is part of Continuous Integration). Sonar is the best bet today. Understand the limits of Static Analysis. Static Analysis is not a magic wand. For me, results from Static Analysis are a signal: It helps me decide where I should look during peer or architect reviews?
 - Have good peer review practices in place. Every user story has to be peer reviewed. Put more focus on peer reviews when there is a new developer or there is a new technical change being done. Make best use of Pair Programming. The debate is ongoing : Is pair programming more productive or not? I would rather stay out of it. You make your choice. However,  these two scenarios are bare minimum:
@@ -57,7 +46,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
  - Implementing a complex functionality.
 - Next question is how to approach a Code Review. Difficult to cover everything. I would make a start. When doing a code review, I start with static analysis results (for example, sonar). I spend 10 minutes getting an overview of components and/or layers (focusing on size and dependencies). Next I would pick up a unit test for a complex functionality. I feel unit tests are the best place to discover the dependencies and naming practices (I believe good names = 50% of maintainable code). If a programmer can write a simple and understandable unit test, he can definitely write good code. Next, I look for 4 principles of Simple Design. After this, there are 100 other things we can look for - You decide.
 
-### Why should you not take code quality tools at face value?
+#### Why should you not take code quality tools at face value?
 - If a project has a great Sonar report, does it mean it is perfect? 
 - Nope, code quality tools are just a guidance!
 - Your focus should be to write code that adheres to "4 Principles of Simple Design"
@@ -68,35 +57,19 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 - Naming variables, methods and classes
 - Size of methods and classes
 - Number of parameters
-### What is Pair Programming?
-### Why is readable code important?
-### Code Quality
-https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
+#### What is Pair Programming?
+#### Why is readable code important?
+
 #### Static Code Analysis
 ![Static Code Analysis](images/StaticCodeAnalysis.png)
 #### SONAR
 - One Slide from PDF - Making use of SONAR 
 - https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
 #### Code Reviews
-- PDF : https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeReview-BestPractices.pdf#### Do not be fooled by Code Coverage?
+- PDF : https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeReview-BestPractices.pdf
 
 
 ## Modern Development Practices
-### Unit Testing
-#### Unit Testing Best Practices
-[Unit Testing Best Practices](pdf/UnitTestingBestPractices.pdf)
-#### Why is unit testing important?
-#### Why is performance of Unit Tests important?
-
-### What is TDD?
-#### Why should you write unit tests with/before code?
-
-### What is BDD?
-
-### What is ATDD?
-### Why should a good programmer understand Mocking?
-
-### Modern Development Practices
 ![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
 - Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://www.youtube.com/watch?v=AN4NCnc4eZg&list=PL83C941BB0D27A6AF. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
 - Automated Integration Tests. Automated Integration Tests is the second important bullet in enabling continuous delivery. Understand Fitnesse, Cucumber and Protractor.
@@ -105,10 +78,20 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
 - Refactoring. Is there an Architect who does not encounter bad code? Understand refactoring. Understand the role of automation tests in refactoring.
 - Continuous Integration. Every project today has continuous integration. But, the real question is “What is under Continuous Integration?”. Compilation, unit tests and code quality gate(s) is the bare minimum. If you have integration and chain tests, wonderful. But make sure the build does not take long. Immediate feedback is important. If needed, create a separate build scheduled less frequently for slower tests (integration and chain tests). Jenkins is the most popular Continuous Integration tool today.
 [[ModernDevelopmentPractices.png]]
-
+### Unit Testing
+#### Unit Testing Best Practices
+[Unit Testing Best Practices](pdf/UnitTestingBestPractices.pdf)
+#### Why is unit testing important?
+#### Why is performance of Unit Tests important?
+#### Do not be fooled by Code Coverage?
+#### Why should a good programmer understand Mocking?
+### What is TDD?
+#### Why should you write unit tests with/before code?
+### What is BDD?
+### What is ATDD?
 #### When should you have multiple CI builds?
-
-#### Important Questions
+### Continuous Integration
+#### Continuous Integration - Important Questions
 - How often is code commited?
 - How early are problems/defects found/fixed?
 -- Code Quality, Code Review, ST Defects 
@@ -124,12 +107,14 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
  - Deployment
  - Chain Tests
 - How long does a Continuous Integration build run for? Is there a need for multiple builds?
+### Devops
+
 ## Design
-###Agile and Design
+### Agile and Design
 [Design in Agile Projects](pdf/AgileAndDesign-Evolution.pdf)
 #### Evolutionary Design
 ### What are the 4 Principles of Simple Design?
-###Design Focus Areas
+### Design Focus Areas
 ![Focus](images/Design-Focus.png)
 - 4 Principles of Simple Design. https://www.youtube.com/watch?v=OwS8ydVTx1c&list=PL066F8F24976D837C
  - Runs all tests
@@ -153,6 +138,7 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20E
 
 ###Design Review
 ![Review](images/DesignReview.png)
+
 ## Architecture
 ### General
 #### Why is it important to use Continuous Integration from Day 0 of the project?
