@@ -38,7 +38,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 ### Code Quality
 #### Code Quality Overview
 ![Code Quality Overview](images/CodeQuality.png)
-https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
+- An overview : https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
 - More than everything else, code quality is an attitude. Either, the team has it or not. The attitude to refactor when something is wrong. The attitude to be a boy scout. As an architect, it is important to create an environment where such an attitude is appreciated. (There are always bad sheep, who take the code quality to such depth that it is not fun anymore, but I like them more than developers who keep churning out bad code).
 - Have a good static analysis tool(and is part of Continuous Integration). Sonar is the best bet today. Understand the limits of Static Analysis. Static Analysis is not a magic wand. For me, results from Static Analysis are a signal: It helps me decide where I should look during peer or architect reviews?
 - Have good peer review practices in place. Every user story has to be peer reviewed. Put more focus on peer reviews when there is a new developer or there is a new technical change being done. Make best use of Pair Programming. The debate is ongoing : Is pair programming more productive or not? I would rather stay out of it. You make your choice. However,  these two scenarios are bare minimum:
@@ -51,23 +51,28 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
 - Nope, code quality tools are just a guidance!
 - Your focus should be to write code that adheres to "4 Principles of Simple Design"
 - Peer Reviews are necessary!
+
 #### Why should you have coding standards?
+
 #### What are the most important coding standards?
 - Complexity of a method
 - Naming variables, methods and classes
 - Size of methods and classes
 - Number of parameters
+
 #### What is Pair Programming?
+
 #### Why is readable code important?
 
 #### Static Code Analysis
 ![Static Code Analysis](images/StaticCodeAnalysis.png)
+
 #### SONAR
 - One Slide from PDF - Making use of SONAR 
 - https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.pdf
+
 #### Code Reviews
 - PDF : https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeReview-BestPractices.pdf
-
 
 ## Modern Development Practices
 ![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
@@ -78,19 +83,32 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
 - Refactoring. Is there an Architect who does not encounter bad code? Understand refactoring. Understand the role of automation tests in refactoring.
 - Continuous Integration. Every project today has continuous integration. But, the real question is “What is under Continuous Integration?”. Compilation, unit tests and code quality gate(s) is the bare minimum. If you have integration and chain tests, wonderful. But make sure the build does not take long. Immediate feedback is important. If needed, create a separate build scheduled less frequently for slower tests (integration and chain tests). Jenkins is the most popular Continuous Integration tool today.
 [[ModernDevelopmentPractices.png]]
+
 ### Unit Testing
+
 #### Unit Testing Best Practices
 [Unit Testing Best Practices](pdf/UnitTestingBestPractices.pdf)
+
 #### Why is unit testing important?
+
 #### Why is performance of Unit Tests important?
+
 #### Do not be fooled by Code Coverage?
+
 #### Why should a good programmer understand Mocking?
+
 ### What is TDD?
+
 #### Why should you write unit tests with/before code?
+
 ### What is BDD?
+
 ### What is ATDD?
+
 #### When should you have multiple CI builds?
+
 ### Continuous Integration
+
 #### Continuous Integration - Important Questions
 - How often is code commited?
 - How early are problems/defects found/fixed?
@@ -107,13 +125,18 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/CodeQuality.p
  - Deployment
  - Chain Tests
 - How long does a Continuous Integration build run for? Is there a need for multiple builds?
-### Devops
+
+### DevOps
 
 ## Design
+
 ### Agile and Design
 [Design in Agile Projects](pdf/AgileAndDesign-Evolution.pdf)
+
 #### Evolutionary Design
+
 ### What are the 4 Principles of Simple Design?
+
 ### Design Focus Areas
 ![Focus](images/Design-Focus.png)
 - 4 Principles of Simple Design. https://www.youtube.com/watch?v=OwS8ydVTx1c&list=PL066F8F24976D837C
@@ -140,15 +163,21 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20E
 ![Review](images/DesignReview.png)
 
 ## Architecture
+
 ### General
+
 #### Why is it important to use Continuous Integration from Day 0 of the project?
+
 #### What is a vertical slice? Why should you need it?
+
 #### Why should you create a reference component?
+
 #### Agile and Architecture. Do they go together?
 - First of all I’m a great believer that agile and architecture go hand in hand. I do not believe agile means no architecture. I think agile brings in the need to separate architecture and design. For me architecture is about things which are difficult to change : technology choices, framework choices, communication between systems etc. It would be great if a big chunk of architectural decisions are made before the done team starts. There would always be things which are uncertain. Inputs to these can come from spikes that are done as part of the Done Scrum Team.But these should be planned ahead.
 - Architecture choices should be well thought out. Its good to spend some time to think (Sprint Zero) before you make a architectural choice.
 - I think most important part of Agile Architecture is Automation Testing. Change is continuous only when the team is sure nothing is broken. And automation test suites play a great role in providing immediate feedback.
 - Important principles for me are test early, fail fast and automate.
+
 ### Layers
 - PDF https://github.com/in28minutes/java-best-practices/blob/master/pdf/LayeringInJavaApplications.pdf
 
@@ -181,6 +210,7 @@ Listed below are some of the important considerations
 - Do we need to expose external web services?
 
 ### Web Services
+
 ### SOAP Web Services
 ![SOAP Web Services](images/SOAPWebServices.png)
 
@@ -189,17 +219,24 @@ Listed below are some of the important considerations
 
 #### How should you document your REST Web Services?
 - Swagger
+
 ### Microservices Architecture
+
 #### What are Cloud Native Applications?
+
 #### What are micro-services?
+
 #### Why is it important to have an API Standard?
 - YARAS
+
 #### What is the importance of Logging and Centralized Monitoring?
+
 #### Automate! Automate! Automate!
 - Why is it important? 
 - Personal Experience with Deployment Automation, Providing user screen with requests/responses
 
 ### Component Based Architecture
+
 #### Why should you create small components?
 
 ## How to be a good architect?
@@ -223,28 +260,41 @@ Most important qualities I look for in an Architect are
 
 ###Architecture Review
 ![Architecture Review](images/ArchitectureReview.png)
+
 ## Tools
+
 ### Maven
+
 #### What happens behind Maven? What is a Repository?
+
 #### What is use of Maven Parent POM?
+
 #### Maven Best Practices 
 ![Maven Best Practices](images/MavenBestPractices.png)
+
 #### 10 Tips For Maven
 [10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
+
 ### Why should you have api & impl in each layer maven projects?
+
 ### IDE - Eclipse
 ![Eclipse](images/Eclipse.png)
 
 #### 10 Tips For Eclipse
 [10 Tips for Eclipse and Maven](pdf/10TipsforEclipseAndMaven.pdf)
+
 ### Version Control
+
 #### Why should you migrate to GIT?
+
 #### Why should you commit your code often? 
+
 #### What are version control best practices
 - Do not commit derived files.
 - Do not commit IDE files.
 - Commit often
 - Use Git
+
 ## Frameworks
 
 ## Performance
@@ -262,11 +312,14 @@ Most important qualities I look for in an Architect are
 ![Java Performance](images/JavaPerformance.png)
 
 ### Why do Stateless applications perform better?
+
 ### Why should you optimize judiciously?
+
 ### How can you increase performance and reliability of applications using Queues?
 
 ### Distributed Cache
 ![Distributed Cache](images/DistributedCache.png)
+
 ### Load and Performance Testing
 - PDF Presentation https://github.com/in28minutes/java-best-practices/blob/master/pdf/LoadAndPerformanceTestingBestPractices.pdf
 - Have clear performance objectives. That’s the single most important objective. Decide Peak Load, Expected Response Time, Availability Required before hand.
