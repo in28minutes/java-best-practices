@@ -108,8 +108,52 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 ### How to become a good programmer?
 ![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
 
-### Ask Why?
+#### What do you think about while you code
+- Am I going to understand this in 3 months time?
+- Am I trying to be too clever: is there a simpler way to get the job done?
+- Can I write this in such a way as to make some parts re-usable?
+- Have I written anything before that I could re-use here?
+- What's for dinner?
+- Am I going to be able to easily test this?
+- Is the first programmer who will read the code going to send a snippet to The Daily WTF?
+
+#### Important Things to Learn
+- Spring
+- Unit Testing
+- TDD
+- Microservices Architecture
+
+#### Ask Why?
 - Question Everything!
+
+#### Books
+- Code Complete by Steve McConnell.
+- Clean Code- A Handbook of Agile Software Craftsmanship     
+- The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt
+- Effective Java (2nd Edition) by Joshua Bloch
+- Refactoring: Improving the Design of Existing Code by Martin Fowler
+- Test Driven Development: By Example by Kent Beck
+
+####Katas
+- Refactoring Examples :http://refactormycode.com/codes/recent/java
+- Roman Numerals:http://vimeo.com/33841375
+- http://ubuntuforums.org/showthread.php?t=1714324
+- http://www.docondev.com/2011/12/roman-numeral-kata.html
+- http://www.codingdojo.org/cgi-bin/wiki.pl?KataCatalogue
+- http://schuchert.wikispaces.com/Katas
+- http://www.butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata
+- http://sites.google.com/site/tddproblems/all-problems-1
+- http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
+- http://www.docondev.com/2011/01/sharpening-saw.html
+- http://codekata.pragprog.com/2007/01/code_kata_one_s.html
+- http://programmingpraxis.com/contents/chron/
+- http://www.codinghorror.com/blog/2008/06/the-ultimate-code-kata.html
+- http://www.knowing.net/index.php/2006/06/16/15-exercises-to-know-a-programming-language-part-1/
+- http://vimeo.com/user3159463/videos/sort:plays
+- http://johannesbrodwall.com/2010/04/06/why-tdd-makes-a-lot-of-sense-for-sudoko/
+- http://www.viddler.com/explore/GreggPollack/videos/29 LCD Numbers Kata by Corey
+- http://osherove.com/tdd-kata-1/
+- http://osherove.com/tdd-kata-2/
 
 ### Programming FAQ
 
