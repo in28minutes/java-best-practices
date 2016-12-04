@@ -44,7 +44,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
     + [What is ATDD?](#what-is-atdd)
       - [When should you have multiple CI builds?](#when-should-you-have-multiple-ci-builds)
     + [Continuous Integration](#continuous-integration)
-      - [Continuous Integration - Important Questions](#continuous-integration---important-questions)
+      - [Continuous Integration - Important Questions](#continuous-integration --important-questions)
     + [DevOps](#devops)
   * [Design](#design)
     + [Agile and Design](#agile-and-design)
@@ -54,7 +54,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
   * [Architecture](#architecture)
     + [General](#general)
       - [Why is it important to use Continuous Integration from Day 0 of the project?](#why-is-it-important-to-use-continuous-integration-from-day-0-of-the-project)
-      - [What is a vertical slice? Why should you need it?](#what-is-a-vertical-slice--why-should-you-need-it)
+      - [What is a vertical slice? Why should you need it?](#what-is-a-vertical-slice -why-should-you-need-it)
       - [Why should you create a reference component?](#why-should-you-create-a-reference-component)
       - [Agile and Architecture. Do they go together?](#agile-and-architecture-do-they-go-together)
     + [Layers](#layers)
@@ -70,7 +70,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
       - [What are micro-services?](#what-are-micro-services)
       - [Why is it important to have an API Standard?](#why-is-it-important-to-have-an-api-standard)
       - [What is the importance of Logging and Centralized Monitoring?](#what-is-the-importance-of-logging-and-centralized-monitoring)
-      - [Automate! Automate! Automate!](#automate--automate--automate)
+      - [Automate! Automate! Automate!](#automate -automate -automate)
     + [Component Based Architecture](#component-based-architecture)
       - [Why should you create small components?](#why-should-you-create-small-components)
   * [How to be a good architect?](#how-to-be-a-good-architect)
@@ -78,12 +78,12 @@ I've been Programming, Designing and Architecting Java applications for 15 years
     + [Architect Qualities](#architect-qualities)
   * [Tools](#tools)
     + [Maven](#maven)
-      - [What happens behind Maven? What is a Repository?](#what-happens-behind-maven--what-is-a-repository)
+      - [What happens behind Maven? What is a Repository?](#what-happens-behind-maven -what-is-a-repository)
       - [What is use of Maven Parent POM?](#what-is-use-of-maven-parent-pom)
       - [Maven Best Practices](#maven-best-practices)
       - [10 Tips For Maven](#10-tips-for-maven)
-    + [Why should you have api & impl in each layer maven projects?](#why-should-you-have-api---impl-in-each-layer-maven-projects)
-    + [IDE - Eclipse](#ide---eclipse)
+    + [Why should you have api & impl in each layer maven projects?](#why-should-you-have-api --impl-in-each-layer-maven-projects)
+    + [IDE - Eclipse](#ide --eclipse)
       - [10 Tips For Eclipse](#10-tips-for-eclipse)
     + [Version Control](#version-control)
       - [Why should you migrate to GIT?](#why-should-you-migrate-to-git)
@@ -238,7 +238,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 #### Continuous Integration - Important Questions
 - How often is code commited?
 - How early are problems/defects found/fixed?
--- Code Quality, Code Review, ST Defects 
+ - Code Quality, Code Review, ST Defects 
 - Broken Builds?
 - How often is code deployed to production?
 - How often is code deployed to test environment?
@@ -253,6 +253,12 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 - How long does a Continuous Integration build run for? Is there a need for multiple builds?
 
 ### DevOps
+- Typically Enterprise Teams are made up of number of teams - Dev, QA, DBA,Administrators, Operations, Project and Release Management. 
+- Each team works in silos. Some teams have contradicting goals. Dev team wants to push their features live as soon as possible where as Operations want stability. Operations are measured on availability. 
+- Reliance on documentation and hand-offs. 
+- Devops aims at making these teams work together focused on single goal - Delivering value to end customers safely. 
+- Single Leadership. 
+- Continuous Delivery. 
 
 ## Design
 
@@ -270,10 +276,10 @@ I've been Programming, Designing and Architecting Java applications for 15 years
  - Minimize Duplication
  - Maximize Clarity
  - Keep it Small
--- Code - Method, Class, jar etc
--- Component
--- Cycle Time (Short cycles)
--- Team Size
+ - Code - Method, Class, jar etc
+ - Component
+ - Cycle Time (Short cycles)
+ - Team Size
  
 - Object Oriented Programming. Have good object, which have well-defined responsibilities.  Following are the important concepts you need to have a good overview of. These are covered in various parts in the video https://www.youtube.com/watch?v=0xcgzUdTO5M. Also, look up the specific videos for each topic.
  - Coupling :
@@ -294,8 +300,30 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20E
 ![Review](images/DesignReview.png)
 
 ## Architecture
+Details about the important parts of the systems and the constraints (boundaries, communication, standards, guidelines)
+## How to be a good architect?
+- PDF - How to be a good architect : https://github.com/in28minutes/java-best-practices/blob/master/pdf/How%20to%20be%20a%20good%20Software%20Architect.pdf
 
-### General
+### Architect Responsibilities
+- Having good governance in place. Good review processes in place for Architecture, Design and Code.
+- Creating a clean architecture based on sound principles. Architecture covering all Non Functional Requirements.
+- Ensuring teams are as productive as they can be. Right tools.
+- Ensuring teams are following the best engineering practices.
+- Ensuring clear communication about architecture with business and technical teams.
+![Architect Responsibilities](images/ArchitectResponsibilities.png)
+
+### Architect Qualities
+Most important qualities I look for in an Architect are
+- Impeccable Credibility : Somebody the team looks up to and aspires to be.
+- Super diagnostic skills : The ability to do a deep dive on a technology issue. When developers are struggling with a problem (having tried different things),  Can he/she provide a fresh pair of eyes to look at the same problem?
+- Forward Thinker and Proactive : Never satisfied with where we are. Identifies opportunities to add value fast.
+- Great Communication :  Communication in the widest sense. Communicating the technical aspects to the stakeholders, project management, software developers, testers, etc.
+![Architect Qualities](images/ArchitectQualities.png)
+
+###Architecture Review
+![Architecture Review](images/ArchitectureReview.png)
+
+### General 
 
 #### Why is it important to use Continuous Integration from Day 0 of the project?
 
@@ -404,10 +432,10 @@ Richardson Maturity Model defines the maturity level of a Restful Web Service. F
 - While designing any API, the most important thing is to think about the api consumer i.e. the client who is going to use the service. What are his needs? Does the service uri make sense to him? Does the request, response format make sense to him?
 - URI’s should be hierarchical and as self descriptive as possible. Prefer plurals.
 - Always use HTTP Methods. Best practices with respect to each HTTP method is described below:
--- GET : Should not update anything. Should be idempotent (same result in multiple calls). Possible Return Codes 200 (OK) + 404 (NOT FOUND) +400 (BAD REQUEST)
--- POST : Should create new resource. Ideally return JSON with link to newly created resource. Same return codes as get possible. In addition : Return code 201 (CREATED) is possible.
--- PUT : Update a known resource. ex: update client details. Possible Return Codes : 200(OK)
--- DELETE : Used to delete a resource.
+ - GET : Should not update anything. Should be idempotent (same result in multiple calls). Possible Return Codes 200 (OK) + 404 (NOT FOUND) +400 (BAD REQUEST)
+ - POST : Should create new resource. Ideally return JSON with link to newly created resource. Same return codes as get possible. In addition : Return code 201 (CREATED) is possible.
+ - PUT : Update a known resource. ex: update client details. Possible Return Codes : 200(OK)
+ - DELETE : Used to delete a resource.
 
 ##### JAX-RS
 JAX-RS is the JEE Specification for Restful web services implemented by all JEE compliant web servers (and application servers).
@@ -431,13 +459,13 @@ http://eugenedvorkin.com/wp-content/uploads/2014/06/micro-service-architecture.p
 - Challenges with Monolith Applications - Longer Release Cycles because of Large Size, Large Teams and difficulty in adopting Automation testing and modern development practices
 - “Keep it Small”. Small deployable components.
 - Flights
--- Points
--- Offers
--- Trips
+ - Points
+ - Offers
+ - Trips
 - Customer
--- Product
--- Order
--- Recommendations
+ - Product
+ - Order
+ - Recommendations
 - Key question to ask : Can we make a change to a service and deploy it by itself without changing anything else?
 
 #### Microservices Characteristics
@@ -464,7 +492,6 @@ http://eugenedvorkin.com/wp-content/uploads/2014/06/micro-service-architecture.p
 - Standardization
 - Operations Team
 - Determining Boundaries
-
 
 #### What is the difference between Microservices and SOA?
 Microservices have similar goals from SOA : Create services around your business logic.
@@ -510,28 +537,6 @@ Saving Account and Debit Card are different products managed by different produc
 ### Component Based Architecture
 
 #### Why should you create small components?
-
-## How to be a good architect?
-- PDF - How to be a good architect : https://github.com/in28minutes/java-best-practices/blob/master/pdf/How%20to%20be%20a%20good%20Software%20Architect.pdf
-
-### Architect Responsibilities
-- Having good governance in place. Good review processes in place for Architecture, Design and Code.
-- Creating a clean architecture based on sound principles. Architecture covering all Non Functional Requirements.
-- Ensuring teams are as productive as they can be. Right tools.
-- Ensuring teams are following the best engineering practices.
-- Ensuring clear communication about architecture with business and technical teams.
-![Architect Responsibilities](images/ArchitectResponsibilities.png)
-
-### Architect Qualities
-Most important qualities I look for in an Architect are
-- Impeccable Credibility : Somebody the team looks up to and aspires to be.
-- Super diagnostic skills : The ability to do a deep dive on a technology issue. When developers are struggling with a problem (having tried different things),  Can he/she provide a fresh pair of eyes to look at the same problem?
-- Forward Thinker and Proactive : Never satisfied with where we are. Identifies opportunities to add value fast.
-- Great Communication :  Communication in the widest sense. Communicating the technical aspects to the stakeholders, project management, software developers, testers, etc.
-![Architect Qualities](images/ArchitectQualities.png)
-
-###Architecture Review
-![Architecture Review](images/ArchitectureReview.png)
 
 ## Tools
 
