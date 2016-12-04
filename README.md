@@ -159,7 +159,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 #### Should I be an expert at all Design Patterns?
 - My personal view : Design Patterns are good to know. Have a good idea on what each one of them does. But, that where it ends. I’m not a big fan of understanding the intricate details of each Design Pattern. You can look it up if you have a good overall idea about Design Patterns.
-- Full Video on Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY
+- Full Video on Design Patterns : https://www.youtube.com/watch?v=0jjNjXcYmAU
 - Java EE Design Patterns : https://github.com/in28minutes/Java-EE-Design-Patterns/blob/master/JavaEE%20Design%20Patterns%20and%20Architecture%20-%20Presentation%20v0.7.pdf
 - Java Design Patterns : https://github.com/in28minutes/Design-Patterns-For-Beginners/blob/master/DesignPatterns-Presentation.pdf
 
