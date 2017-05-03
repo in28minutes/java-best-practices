@@ -140,7 +140,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 - Refactoring: Improving the Design of Existing Code by Martin Fowler
 - Test Driven Development: By Example by Kent Beck
 
-####Katas
+#### Katas
 - Refactoring Examples :http://refactormycode.com/codes/recent/java
 - Roman Numerals:http://vimeo.com/33841375
 - http://ubuntuforums.org/showthread.php?t=1714324
@@ -346,7 +346,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 https://github.com/in28minutes/java-best-practices/blob/master/pdf/DesignPatternsForBeginners.pdf
 https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20EE)%20Design%20Patterns%20and%20Architecture.pdf
 
-###Design Review
+### Design Review
 ![Review](images/DesignReview.png)
 
 ## Architecture
@@ -370,7 +370,7 @@ Most important qualities I look for in an Architect are
 - Great Communication :  Communication in the widest sense. Communicating the technical aspects to the stakeholders, project management, software developers, testers, etc.
 ![Architect Qualities](images/ArchitectQualities.png)
 
-###Architecture Review
+### Architecture Review
 ![Architecture Review](images/ArchitectureReview.png)
 
 ### General 
@@ -425,7 +425,7 @@ Listed below are some of the important considerations
 - Service Consumer : Browser is the service consumer. Creates Request. Invokes Service. Processes the Response.
 - Data Exchange Format : In this example, Data Exchange is done over HTTP protocol. Request is HTTP request and Response is HTTP Response. Data exchange format can be something else as well. SOAP (in case of SOAP web services) and JSON (most RESTful services).
 
-####Advantages
+#### Advantages
 - Re-use : Web services avoid the need to implement business logic repeatedly. If we expose a web service, other applications can re-use the functionality
 - Modularity : For example, tax calculation can be implemented as a service and all the applications that need this feature can invoke the tax calculation web service. Leads to very modular application architecture.
 - Language Neutral : Web services enable communication between systems using different programming languages and different architectures. For example, following systems can talk with each other : Java, .Net, Mainframes etc.
@@ -676,7 +676,7 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - Microservices vs SOA
 - GIT vs SVN
 
-##Images
+## Images
 - Queue : https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/The-amqp-model-for-wikipedia.svg/1024px-The-amqp-model-for-wikipedia.svg.png
 - Different Kinds of Testing : https://upload.wikimedia.org/wikipedia/commons/8/80/Agile_DevOps_Shift_Left_Testing.jpg
 - Continuous Delivery : https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Continuous_Delivery_process_diagram.svg/1280px-Continuous_Delivery_process_diagram.svg.png
