@@ -703,6 +703,7 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 ### Other Courses
 
 - [Most Watched Courses on YouTube - 30,000 Subscribers](https://www.youtube.com/watch?v=bNFoN956P2A&list=PLBBog2r6uMCQhZaQ9vUT5zJWXzz-f49k1)
+- [Programming Community Curated Resources for learning Java](https://hackr.io/tutorials/learn-java)
 - [25 Videos and Articles for Beginners on Spring Boot](http://www.springboottutorial.com/spring-boot-tutorials-for-beginners)
 - Our Best Courses with 66,000 Students and 4,000 5-Star Ratings
   * [Java Interview Guide : 200+ Interview Questions and Answers](https://www.udemy.com/java-interview-questions-and-answers/?couponCode=JAVA_INTER_GIT)
