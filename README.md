@@ -252,7 +252,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 ## Modern Development Practices
 ![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
-- Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://www.youtube.com/watch?v=AN4NCnc4eZg&list=PL83C941BB0D27A6AF. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
+- Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://courses.in28minutes.com/p/junit-tutorial-for-beginners. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
 - Automated Integration Tests. Automated Integration Tests is the second important bullet in enabling continuous delivery. Understand Fitnesse, Cucumber and Protractor.
 - TDD (actually I wanted to put it first). Understand what TDD is. If you have never used TDD, then be ready for a rude shock.  Its not easy to change a routine you developed during decades (or years) of programming. Once you are used to TDD you never go back. I promise. This list of videos is a good start to understanding TDD. https://www.youtube.com/watch?v=xubiP8WoT4E&list=PLBD6D61C0A9F671F6. Have fun.
 - BDD. In my experience, I found BDD a great tool to enable communication between the ready team (Business Analysts, Product Owner) and the done team (Developers, Testers, Operations). When User Stories are nothing but a set of scenarios specified is GWT (Given When Then) format, it is easy for the done team to chew at the user story scenario by scenario.  With tools like Cucumber & Fitnesse, tooling is not far behind too. Do check BDD out.
@@ -351,6 +351,7 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20E
 
 ## Architecture
 Details about the important parts of the systems and the constraints (boundaries, communication, standards, guidelines)
+
 ## How to be a good architect?
 - PDF - How to be a good architect : https://github.com/in28minutes/java-best-practices/blob/master/pdf/How%20to%20be%20a%20good%20Software%20Architect.pdf
 
@@ -702,7 +703,7 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 
 ### Other Courses
 
-- [Most Watched Courses on YouTube - 30,000 Subscribers](https://www.youtube.com/watch?v=bNFoN956P2A&list=PLBBog2r6uMCQhZaQ9vUT5zJWXzz-f49k1)
+- [Check out all our courses with 100,000 Students](https://courses.in28minutes.com/courses)
 - [25 Videos and Articles for Beginners on Spring Boot](http://www.springboottutorial.com/spring-boot-tutorials-for-beginners)
 - Our Best Courses with 66,000 Students and 4,000 5-Star Ratings
   * [Java Interview Guide : 200+ Interview Questions and Answers](https://www.udemy.com/java-interview-questions-and-answers/?couponCode=JAVA_INTER_GIT)
