@@ -15,14 +15,63 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 [![Image](https://www.in28minutes.com/course-promotional-images/Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
 
-### More Courses and Videos From in28Minutes
-- https://github.com/in28minutes/learn
+## 250 Youtube Videos
+ - [5 Minute Introductions - Tools and Terminology](https://github.com/in28minutes/learn#5-minute-introductions---tools-and-terminology)
+ - [Microservices](https://github.com/in28minutes/learn#microservices)
+ - [Software Design](https://github.com/in28minutes/learn#software-design)
+ - [Software Architecture](https://github.com/in28minutes/learn#software-architecture)
+ - [Code Quality](https://github.com/in28minutes/learn#code-quality)
+ - [Spring and Other FAQ](https://github.com/in28minutes/learn#spring-and-other-faq)
+ - [Best Practices and Tips](https://github.com/in28minutes/learn#best-practices-and-tips)
+ - [Web Service Best Practices](https://github.com/in28minutes/learn#web-service-best-practices)
+ - [Java](https://github.com/in28minutes/learn#java)
+ - [Interview Preparation](https://github.com/in28minutes/learn#interview-preparation)
+ - [Web Application Security](https://github.com/in28minutes/learn#web-application-security)
+ - [Modern Development Practices](https://github.com/in28minutes/learn#modern-development-practices)
+ - [The in28minutes way](https://github.com/in28minutes/learn#the-in28minutes-way)
 
-* [About in28Minutes](#about-in28minutes)
-  - [Our Beliefs](#our-beliefs)
-  - [Our Approach](#our-approach)
-  - [Find Us](#useful-links)
-  - [Other Courses](#other-courses)
+### Modern Development Practices
+- [Modern Development Practices - Unit Testing - What is Mocking?](https://www.youtube.com/watch?v=xJreuzP2C0M)
+- [Modern Development Practices - Continuous Integration - 5 Tips to get better at CI](https://www.youtube.com/watch?v=i8WNumrDMcA)
+- [Modern Development Practices - Automation Testing - 5 Types of Automation Tests](https://www.youtube.com/watch?v=kwqH1C76siE)
+
+### Code Quality
+- [Introduction to Coding Standards](https://www.youtube.com/watch?v=XRKDpQ3b27M)
+- [Introduction to Code Quality](https://www.youtube.com/watch?v=M4Ip6joERv4)
+- [Code Review Best Practices](https://www.youtube.com/watch?v=hVJGu0xdXII)
+- [Agile and Evolutionary Design](https://www.youtube.com/watch?v=gt6js9zl1Rs)
+- [How to become a good programmer?](https://www.youtube.com/watch?v=iJe1Ru4bJQo)
+- [10 Maven Tips for Beginners](https://www.youtube.com/watch?v=exNl7USPfsg)
+- [Introduction to Modern Development Practices](https://www.youtube.com/watch?v=0Kqzfyp-w4s)
+- [Introduction to Non Functional Requirements](https://www.youtube.com/watch?v=JTYxAcZC8Io)
+- [Introduction to DevOps](https://www.youtube.com/watch?v=I-JkJZruWyU)
+- [Unit Testing (JUnit) Best Practices](https://www.youtube.com/watch?v=BukAouJgEjo)
+- [Static Code Analysis - Best Practices](https://www.youtube.com/watch?v=rB_BaftN3nE)
+- [10 Eclipse Tips for Beginners](https://www.youtube.com/watch?v=dN9GYsG1v_c)
+- [Code Quality - What is Technical Debt?](https://www.youtube.com/watch?v=BUQuYy0upPE)
+- [Code Quality - What is Refactoring?](https://www.youtube.com/watch?v=2kxgoBZw9Xc)
+- [Code Quality - What is Readability of Code?](https://www.youtube.com/watch?v=DoX3UiYn85A)
+- [Code Quality - What is Legacy Code?](https://www.youtube.com/watch?v=5odeVADF2Og)
+- [Code Quality - What is Code Duplication?](https://www.youtube.com/watch?v=uauZjxAu3p8)
+- [Code Quality - What is Code Coverage?](https://www.youtube.com/watch?v=Ra42js3AXIQ)
+- [Code Quality - What is Code Complexity?](https://www.youtube.com/watch?v=cE44izR3A5E)
+- [Code Quality - What are Coding Standards?](https://www.youtube.com/watch?v=7Ef_2_bQBKU)
+- [Code Quality - What are Code Smells?](https://www.youtube.com/watch?v=r0CyMrZBYa4)
+- [Code Quality - Top 5 Coding Standards](https://www.youtube.com/watch?v=xOPTwJyFnMM)
+- [Code Quality - An Overview](https://www.youtube.com/watch?v=aGQda_tlfdw)
+- [Code Quality - 5 Things to think about while Programming](https://www.youtube.com/watch?v=svJ_htqB12E)
+
+### Best Practices and Tips
+- [REST API Web Service Best Practices](https://www.youtube.com/watch?v=NzgFdEGI8sI)
+- [JPA And Hibernate Tutorial For Beginners](https://www.youtube.com/watch?v=MaI0_XdpdP8)
+- [Top 6 Java Unit Testing Frameworks](https://www.youtube.com/watch?v=VG7ohV4weYw)
+- [Top 5 Tools to Learn](https://www.youtube.com/watch?v=jA-I7JYxly0)
+- [Top 5 Languages to Learn](https://www.youtube.com/watch?v=gSME35wOO1E)
+- [Top 5 Frameworks to Learn](https://www.youtube.com/watch?v=kF1FleBnb1w)
+- [How to Introduce Yourselves in a Technical Interview?](https://www.youtube.com/watch?v=UuTKEUM6B-k)
+
+
+# Java Best Practices
 
 - [Java Best Practices](#java-best-practices)
   * [Journey of a Programmer](#journey-of-a-programmer)
