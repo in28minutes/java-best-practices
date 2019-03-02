@@ -1,11 +1,77 @@
 # Java Best Practices
-I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. If you have feedback, contact me on my website http://www.in28minutes.com.
+I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
 
-* [About in28Minutes](#about-in28minutes)
-  - [Our Beliefs](#our-beliefs)
-  - [Our Approach](#our-approach)
-  - [Find Us](#useful-links)
-  - [Other Courses](#other-courses)
+### Some of our Best Selling Courses
+[![Image](https://www.in28minutes.com/course-promotional-images/Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
+")](https://www.udemy.com/java-programming-tutorial-for-beginners/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/learn-python-programming-for-java-programmers?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/software-architect-course-first-steps/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/microservices-with-spring-boot-and-spring-cloud/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/spring-tutorial-for-beginners/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
+
+## 250 Youtube Videos
+ - [5 Minute Introductions - Tools and Terminology](https://github.com/in28minutes/learn#5-minute-introductions---tools-and-terminology)
+ - [Microservices](https://github.com/in28minutes/learn#microservices)
+ - [Software Design](https://github.com/in28minutes/learn#software-design)
+ - [Software Architecture](https://github.com/in28minutes/learn#software-architecture)
+ - [Code Quality](https://github.com/in28minutes/learn#code-quality)
+ - [Spring and Other FAQ](https://github.com/in28minutes/learn#spring-and-other-faq)
+ - [Best Practices and Tips](https://github.com/in28minutes/learn#best-practices-and-tips)
+ - [Web Service Best Practices](https://github.com/in28minutes/learn#web-service-best-practices)
+ - [Java](https://github.com/in28minutes/learn#java)
+ - [Interview Preparation](https://github.com/in28minutes/learn#interview-preparation)
+ - [Web Application Security](https://github.com/in28minutes/learn#web-application-security)
+ - [Modern Development Practices](https://github.com/in28minutes/learn#modern-development-practices)
+ - [The in28minutes way](https://github.com/in28minutes/learn#the-in28minutes-way)
+
+### Modern Development Practices
+- [Modern Development Practices - Unit Testing - What is Mocking?](https://www.youtube.com/watch?v=xJreuzP2C0M)
+- [Modern Development Practices - Continuous Integration - 5 Tips to get better at CI](https://www.youtube.com/watch?v=i8WNumrDMcA)
+- [Modern Development Practices - Automation Testing - 5 Types of Automation Tests](https://www.youtube.com/watch?v=kwqH1C76siE)
+
+### Code Quality
+- [Introduction to Coding Standards](https://www.youtube.com/watch?v=XRKDpQ3b27M)
+- [Introduction to Code Quality](https://www.youtube.com/watch?v=M4Ip6joERv4)
+- [Code Review Best Practices](https://www.youtube.com/watch?v=hVJGu0xdXII)
+- [Agile and Evolutionary Design](https://www.youtube.com/watch?v=gt6js9zl1Rs)
+- [How to become a good programmer?](https://www.youtube.com/watch?v=iJe1Ru4bJQo)
+- [10 Maven Tips for Beginners](https://www.youtube.com/watch?v=exNl7USPfsg)
+- [Introduction to Modern Development Practices](https://www.youtube.com/watch?v=0Kqzfyp-w4s)
+- [Introduction to Non Functional Requirements](https://www.youtube.com/watch?v=JTYxAcZC8Io)
+- [Introduction to DevOps](https://www.youtube.com/watch?v=I-JkJZruWyU)
+- [Unit Testing (JUnit) Best Practices](https://www.youtube.com/watch?v=BukAouJgEjo)
+- [Static Code Analysis - Best Practices](https://www.youtube.com/watch?v=rB_BaftN3nE)
+- [10 Eclipse Tips for Beginners](https://www.youtube.com/watch?v=dN9GYsG1v_c)
+- [Code Quality - What is Technical Debt?](https://www.youtube.com/watch?v=BUQuYy0upPE)
+- [Code Quality - What is Refactoring?](https://www.youtube.com/watch?v=2kxgoBZw9Xc)
+- [Code Quality - What is Readability of Code?](https://www.youtube.com/watch?v=DoX3UiYn85A)
+- [Code Quality - What is Legacy Code?](https://www.youtube.com/watch?v=5odeVADF2Og)
+- [Code Quality - What is Code Duplication?](https://www.youtube.com/watch?v=uauZjxAu3p8)
+- [Code Quality - What is Code Coverage?](https://www.youtube.com/watch?v=Ra42js3AXIQ)
+- [Code Quality - What is Code Complexity?](https://www.youtube.com/watch?v=cE44izR3A5E)
+- [Code Quality - What are Coding Standards?](https://www.youtube.com/watch?v=7Ef_2_bQBKU)
+- [Code Quality - What are Code Smells?](https://www.youtube.com/watch?v=r0CyMrZBYa4)
+- [Code Quality - Top 5 Coding Standards](https://www.youtube.com/watch?v=xOPTwJyFnMM)
+- [Code Quality - An Overview](https://www.youtube.com/watch?v=aGQda_tlfdw)
+- [Code Quality - 5 Things to think about while Programming](https://www.youtube.com/watch?v=svJ_htqB12E)
+
+### Best Practices and Tips
+- [REST API Web Service Best Practices](https://www.youtube.com/watch?v=NzgFdEGI8sI)
+- [JPA And Hibernate Tutorial For Beginners](https://www.youtube.com/watch?v=MaI0_XdpdP8)
+- [Top 6 Java Unit Testing Frameworks](https://www.youtube.com/watch?v=VG7ohV4weYw)
+- [Top 5 Tools to Learn](https://www.youtube.com/watch?v=jA-I7JYxly0)
+- [Top 5 Languages to Learn](https://www.youtube.com/watch?v=gSME35wOO1E)
+- [Top 5 Frameworks to Learn](https://www.youtube.com/watch?v=kF1FleBnb1w)
+- [How to Introduce Yourselves in a Technical Interview?](https://www.youtube.com/watch?v=UuTKEUM6B-k)
+
+
+# Java Best Practices
 
 - [Java Best Practices](#java-best-practices)
   * [Journey of a Programmer](#journey-of-a-programmer)
@@ -111,6 +177,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 
 ## Journey of a Programmer
+
 ### How to become a good programmer?
 ![How to become a good programmer?](images/BecomingAGreatProgrammer.png)
 
@@ -252,7 +319,7 @@ I've been Programming, Designing and Architecting Java applications for 15 years
 
 ## Modern Development Practices
 ![Modern Development Practices](images/ModernDevelopmentPracticesOverview.png)
-- Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://www.youtube.com/watch?v=AN4NCnc4eZg&list=PL83C941BB0D27A6AF. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
+- Unit Testing and Mocking : We are in the age of continuous integration and delivery, and the basic thing that enables those is having a good set of unit test in place. (Don’t confuse unit testing with screen testing done manually to check if the screen flow is right. What I mean by unit testing is JUnit test’s checking the business logic/screen flow in a java method (or) set of methods). Understand JUnit. Here is a good start : https://courses.in28minutes.com/p/junit-tutorial-for-beginners. Also understand the concept of Mocking. When should we mock? And when we should not? Complicated question indeed.  Understand one mocking framework : Mockito is the most popular one. Easymock is a good mocking framework as well.
 - Automated Integration Tests. Automated Integration Tests is the second important bullet in enabling continuous delivery. Understand Fitnesse, Cucumber and Protractor.
 - TDD (actually I wanted to put it first). Understand what TDD is. If you have never used TDD, then be ready for a rude shock.  Its not easy to change a routine you developed during decades (or years) of programming. Once you are used to TDD you never go back. I promise. This list of videos is a good start to understanding TDD. https://www.youtube.com/watch?v=xubiP8WoT4E&list=PLBD6D61C0A9F671F6. Have fun.
 - BDD. In my experience, I found BDD a great tool to enable communication between the ready team (Business Analysts, Product Owner) and the done team (Developers, Testers, Operations). When User Stories are nothing but a set of scenarios specified is GWT (Given When Then) format, it is easy for the done team to chew at the user story scenario by scenario.  With tools like Cucumber & Fitnesse, tooling is not far behind too. Do check BDD out.
@@ -351,6 +418,7 @@ https://github.com/in28minutes/java-best-practices/blob/master/pdf/J2EE(Java%20E
 
 ## Architecture
 Details about the important parts of the systems and the constraints (boundaries, communication, standards, guidelines)
+
 ## How to be a good architect?
 - PDF - How to be a good architect : https://github.com/in28minutes/java-best-practices/blob/master/pdf/How%20to%20be%20a%20good%20Software%20Architect.pdf
 
@@ -669,6 +737,9 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 ## Campus Interview Guide
 - https://docs.google.com/document/d/1IP6HNgpMdCAAJEREowfBj2XPLBrPcIIFNIGFPGX0-ao/edit#heading=h.byb5dl2v0c4p
 
+### Other Courses
+- More Courses and Videos From in28Minutes - https://github.com/in28minutes/learn
+
 ## Compare and Contrast
 - Spring MVC vs Struts
 - Mockito vs EasyMock
@@ -700,24 +771,26 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - We will be developing a demo application in the course, which could be reused in your projects, saving hours of your effort.
 - We love open source and therefore, All our code is open source too and available on Github.
 
-### Other Courses
-
-- [Most Watched Courses on YouTube - 30,000 Subscribers](https://www.youtube.com/watch?v=bNFoN956P2A&list=PLBBog2r6uMCQhZaQ9vUT5zJWXzz-f49k1)
-- [25 Videos and Articles for Beginners on Spring Boot](http://www.springboottutorial.com/spring-boot-tutorials-for-beginners)
-- Our Best Courses with 66,000 Students and 4,000 5-Star Ratings
-  * [Java Interview Guide : 200+ Interview Questions and Answers](https://www.udemy.com/java-interview-questions-and-answers/?couponCode=JAVA_INTER_GIT)
-  * [First Web Application with Spring Boot](https://www.udemy.com/spring-boot-first-web-application/?couponCode=SPRING-BOOT-1-GIT)
-  * [Spring Boot Tutorial For Beginners](https://www.udemy.com/spring-boot-tutorial-for-beginners/?couponCode=SPRING-BOOT-GIT)
-  * [Mockito Tutorial : Learn mocking with 25 Junit Examples](https://www.udemy.com/mockito-tutorial-with-junit-examples/?couponCode=MOCKITO_GIT)
-  * [Java EE Made Easy - Patterns, Architecture and Frameworks](https://www.udemy.com/java-ee-design-patterns-architecture-and-frameworks/?couponCode=EEPATTERNS-GIT)
-  * [Spring MVC For Beginners : Build Java Web App in 25 Steps](https://www.udemy.com/spring-mvc-tutorial-for-beginners-step-by-step/?couponCode=SPRINGMVC-GIT)
-  * [JSP Servlets For Beginners : Build Java Web App in 25 Steps](https://www.udemy.com/learn-java-servlets-and-jsp-web-application-in-25-steps/?couponCode=JSPSRVLT-GIT)
-  * [Maven Tutorial - Manage Java Dependencies in 25 Steps](https://www.udemy.com/learn-maven-java-dependency-management-in-20-steps/?couponCode=MAVEN_GIT)
-  * [Java OOPS in 1 Hours](https://www.udemy.com/learn-object-oriented-programming-in-java/?couponCode=OOPS-GIT)
-  * [C Puzzle for Interview](https://www.udemy.com/c-puzzles-for-beginners/?couponCode=CPUZZLES-GIT)
   
 ### Useful Links
 - [Our Website](http://www.in28minutes.com)
 - [Facebook](http://facebook.com/in28minutes)
 - [Twitter](http://twitter.com/in28minutes)
 - [Google Plus](https://plus.google.com/u/3/110861829188024231119)
+
+### Some of our Best Selling Courses
+[![Image](https://www.in28minutes.com/course-promotional-images/Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
+")](https://www.udemy.com/java-programming-tutorial-for-beginners/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/learn-python-programming-for-java-programmers?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/software-architect-course-first-steps/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/microservices-with-spring-boot-and-spring-cloud/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/spring-tutorial-for-beginners/?couponCode=LEARN-2019)
+
+[![Image](https://www.in28minutes.com/course-promotional-images/Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
+
+### More Courses and Videos From in28Minutes
+- https://github.com/in28minutes/learn
