@@ -2,18 +2,18 @@
 I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
 
 ### Some of our Best Selling Courses
-[![Image](https://www.in28minutes.com/course-promotional-images/Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
+[![Image](https://www.springboottutorial.com/images/Course-Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
 ")](https://www.udemy.com/java-programming-tutorial-for-beginners/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/learn-python-programming-for-java-programmers?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/learn-python-programming-for-java-programmers?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/software-architect-course-first-steps/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/software-architect-course-first-steps/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/microservices-with-spring-boot-and-spring-cloud/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/microservices-with-spring-boot-and-spring-cloud/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/spring-tutorial-for-beginners/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/spring-tutorial-for-beginners/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
 
 ## 250 Youtube Videos
  - [5 Minute Introductions - Tools and Terminology](https://github.com/in28minutes/learn#5-minute-introductions---tools-and-terminology)
@@ -779,18 +779,18 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - [Google Plus](https://plus.google.com/u/3/110861829188024231119)
 
 ### Some of our Best Selling Courses
-[![Image](https://www.in28minutes.com/course-promotional-images/Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
+[![Image](https://www.springboottutorial.com/images/Course-Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
 ")](https://www.udemy.com/java-programming-tutorial-for-beginners/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/learn-python-programming-for-java-programmers?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/learn-python-programming-for-java-programmers?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/software-architect-course-first-steps/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/software-architect-course-first-steps/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/microservices-with-spring-boot-and-spring-cloud/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/microservices-with-spring-boot-and-spring-cloud/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/spring-tutorial-for-beginners/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/spring-tutorial-for-beginners/?couponCode=LEARN-2019)
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
+[![Image](https://www.springboottutorial.com/images/Course-Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/spring-web-services-tutorial/?couponCode=LEARN-2019)
 
 ### More Courses and Videos From in28Minutes
 - https://github.com/in28minutes/learn
