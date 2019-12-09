@@ -1,75 +1,24 @@
 # Java Best Practices
+
 I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
 
-### Some of our Best Selling Courses
-[![Image](https://www.springboottutorial.com/images/Course-Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
-")](https://www.udemy.com/course/java-programming-tutorial-for-beginners/?couponCode=OCTOBER-2019)
+> in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
 
-[![Image](https://www.springboottutorial.com/images/Course-Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/course/learn-python-programming-for-java-programmers?couponCode=OCTOBER-2019)
+## Youtube Playlists - 500+ Videos
 
-[![Image](https://www.springboottutorial.com/images/Course-Learn-Functional-Programming-with-Java.png "Azure Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/functional-programming-with-java/?couponCode=OCTOBER-2019)
-[![Image](https://www.springboottutorial.com/images/Course-Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/course/software-architect-course-first-steps/?couponCode=OCTOBER-2019)
+[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/?couponCode=OCTOBER-2019)
+## Top 5 Recommended Courses
 
-[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/course/spring-tutorial-for-beginners/?couponCode=OCTOBER-2019)
+[![Image](https://www.springboottutorial.com/images/Course-KubernetesCrashCourse.png "Kubernetes Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/kubernetes-crash-course-for-java-developers/?couponCode=NOVEMBER-2019)
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/course/spring-web-services-tutorial/?couponCode=OCTOBER-2019)
+[![Image](https://www.springboottutorial.com/images/Course-DockerCrashCourseForJavaSpringBootDevelopers.png "Docker Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/docker-course-with-java-and-spring-boot-for-beginners/?couponCode=NOVEMBER-2019)
 
-## 250 Youtube Videos
- - [5 Minute Introductions - Tools and Terminology](https://github.com/in28minutes/learn#5-minute-introductions---tools-and-terminology)
- - [Microservices](https://github.com/in28minutes/learn#microservices)
- - [Software Design](https://github.com/in28minutes/learn#software-design)
- - [Software Architecture](https://github.com/in28minutes/learn#software-architecture)
- - [Code Quality](https://github.com/in28minutes/learn#code-quality)
- - [Spring and Other FAQ](https://github.com/in28minutes/learn#spring-and-other-faq)
- - [Best Practices and Tips](https://github.com/in28minutes/learn#best-practices-and-tips)
- - [Web Service Best Practices](https://github.com/in28minutes/learn#web-service-best-practices)
- - [Java](https://github.com/in28minutes/learn#java)
- - [Interview Preparation](https://github.com/in28minutes/learn#interview-preparation)
- - [Web Application Security](https://github.com/in28minutes/learn#web-application-security)
- - [Modern Development Practices](https://github.com/in28minutes/learn#modern-development-practices)
- - [The in28minutes way](https://github.com/in28minutes/learn#the-in28minutes-way)
+[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-Spring-Boot-and-React.png "Go Full Stack with Spring Boot and React")](https://www.udemy.com/course/full-stack-application-with-spring-boot-and-react/?couponCode=NOVEMBER-2019)
 
-### Modern Development Practices
-- [Modern Development Practices - Unit Testing - What is Mocking?](https://www.youtube.com/watch?v=xJreuzP2C0M)
-- [Modern Development Practices - Continuous Integration - 5 Tips to get better at CI](https://www.youtube.com/watch?v=i8WNumrDMcA)
-- [Modern Development Practices - Automation Testing - 5 Types of Automation Tests](https://www.youtube.com/watch?v=kwqH1C76siE)
+[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/?couponCode=NOVEMBER-2019)
 
-### Code Quality
-- [Introduction to Coding Standards](https://www.youtube.com/watch?v=XRKDpQ3b27M)
-- [Introduction to Code Quality](https://www.youtube.com/watch?v=M4Ip6joERv4)
-- [Code Review Best Practices](https://www.youtube.com/watch?v=hVJGu0xdXII)
-- [Agile and Evolutionary Design](https://www.youtube.com/watch?v=gt6js9zl1Rs)
-- [How to become a good programmer?](https://www.youtube.com/watch?v=iJe1Ru4bJQo)
-- [10 Maven Tips for Beginners](https://www.youtube.com/watch?v=exNl7USPfsg)
-- [Introduction to Modern Development Practices](https://www.youtube.com/watch?v=0Kqzfyp-w4s)
-- [Introduction to Non Functional Requirements](https://www.youtube.com/watch?v=JTYxAcZC8Io)
-- [Introduction to DevOps](https://www.youtube.com/watch?v=I-JkJZruWyU)
-- [Unit Testing (JUnit) Best Practices](https://www.youtube.com/watch?v=BukAouJgEjo)
-- [Static Code Analysis - Best Practices](https://www.youtube.com/watch?v=rB_BaftN3nE)
-- [10 Eclipse Tips for Beginners](https://www.youtube.com/watch?v=dN9GYsG1v_c)
-- [Code Quality - What is Technical Debt?](https://www.youtube.com/watch?v=BUQuYy0upPE)
-- [Code Quality - What is Refactoring?](https://www.youtube.com/watch?v=2kxgoBZw9Xc)
-- [Code Quality - What is Readability of Code?](https://www.youtube.com/watch?v=DoX3UiYn85A)
-- [Code Quality - What is Legacy Code?](https://www.youtube.com/watch?v=5odeVADF2Og)
-- [Code Quality - What is Code Duplication?](https://www.youtube.com/watch?v=uauZjxAu3p8)
-- [Code Quality - What is Code Coverage?](https://www.youtube.com/watch?v=Ra42js3AXIQ)
-- [Code Quality - What is Code Complexity?](https://www.youtube.com/watch?v=cE44izR3A5E)
-- [Code Quality - What are Coding Standards?](https://www.youtube.com/watch?v=7Ef_2_bQBKU)
-- [Code Quality - What are Code Smells?](https://www.youtube.com/watch?v=r0CyMrZBYa4)
-- [Code Quality - Top 5 Coding Standards](https://www.youtube.com/watch?v=xOPTwJyFnMM)
-- [Code Quality - An Overview](https://www.youtube.com/watch?v=aGQda_tlfdw)
-- [Code Quality - 5 Things to think about while Programming](https://www.youtube.com/watch?v=svJ_htqB12E)
-
-### Best Practices and Tips
-- [REST API Web Service Best Practices](https://www.youtube.com/watch?v=NzgFdEGI8sI)
-- [JPA And Hibernate Tutorial For Beginners](https://www.youtube.com/watch?v=MaI0_XdpdP8)
-- [Top 6 Java Unit Testing Frameworks](https://www.youtube.com/watch?v=VG7ohV4weYw)
-- [Top 5 Tools to Learn](https://www.youtube.com/watch?v=jA-I7JYxly0)
-- [Top 5 Languages to Learn](https://www.youtube.com/watch?v=gSME35wOO1E)
-- [Top 5 Frameworks to Learn](https://www.youtube.com/watch?v=kF1FleBnb1w)
-- [How to Introduce Yourselves in a Technical Interview?](https://www.youtube.com/watch?v=UuTKEUM6B-k)
+[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/course/spring-tutorial-for-beginners/?couponCode=NOVEMBER-2019)
 
 
 # Java Best Practices
@@ -755,44 +704,13 @@ Presentation : https://github.com/in28minutes/java-best-practices/blob/master/pd
 - Devops : https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/2000px-Devops-toolchain.svg.png
 - Devops2 : https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Devops.svg/1079px-Devops.svg.png
 
-## About in28Minutes
-- At in28Minutes, we ask ourselves one question everyday. How do we help you learn effectively - that is more quickly and retain more of what you have learnt?
-- We use Problem-Solution based Step-By-Step Hands-on Approach With Practical, Real World Application Examples. 
-- Our success on Udemy and Youtube (2 Million Views & 12K Subscribers) speaks volumes about the success of our approach.
-- While our primary expertise is on Development, Design & Architecture Java & Related Frameworks (Spring, Struts, Hibernate) we are expanding into the front-end world (Bootstrap, JQuery, Angular JS). 
+### Troubleshooting
+- Refer our TroubleShooting Guide - https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ
 
-### Our Beliefs
-- Best Courses are interactive and fun.
-- Foundations for building high quality applications are best laid down while learning.
+## Youtube Playlists - 500+ Videos
 
-### Our Approach
-- Problem Solution based Step by Step Hands-on Learning
-- Practical, Real World Application Examples.
-- We use 80-20 Rule. We discuss 20% things used 80% of time in depth. We touch upon other things briefly equipping you with enough knowledge to find out more on your own. 
-- We will be developing a demo application in the course, which could be reused in your projects, saving hours of your effort.
-- We love open source and therefore, All our code is open source too and available on Github.
+[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
 
-  
-### Useful Links
-- [Our Website](http://www.in28minutes.com)
-- [Facebook](http://facebook.com/in28minutes)
-- [Twitter](http://twitter.com/in28minutes)
-- [Google Plus](https://plus.google.com/u/3/110861829188024231119)
+## Keep Learning in28Minutes
 
-### Some of our Best Selling Courses
-[![Image](https://www.springboottutorial.com/images/Course-Java-Programming-for-Complete-Beginners-in-250-Steps.png "Java 9 Programming for Complete Beginners in 250 Steps
-")](https://www.udemy.com/course/java-programming-tutorial-for-beginners/?couponCode=OCTOBER-2019)
-
-[![Image](https://www.springboottutorial.com/images/Course-Python-Programming-For-Java-Programmers-in-100-Easy-Steps.png "Python For Beginners - Java to Python in 100 Steps")](https://www.udemy.com/course/learn-python-programming-for-java-programmers?couponCode=OCTOBER-2019)
-
-[![Image](https://www.springboottutorial.com/images/Course-Learn-Functional-Programming-with-Java.png "Azure Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/functional-programming-with-java/?couponCode=OCTOBER-2019)
-[![Image](https://www.springboottutorial.com/images/Course-Your-First-Steps-From-Programmer-To-Software-Architect.png "Your First Steps from Programmer to Software Architect")](https://www.udemy.com/course/software-architect-course-first-steps/?couponCode=OCTOBER-2019)
-
-[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/?couponCode=OCTOBER-2019)
-
-[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/course/spring-tutorial-for-beginners/?couponCode=OCTOBER-2019)
-
-[![Image](https://www.springboottutorial.com/images/Course-Master-Java-Web-Services-and-REST-API-with-Spring-Boot.png "Master Java Web Services and REST API with Spring Boot")](https://www.udemy.com/course/spring-web-services-tutorial/?couponCode=OCTOBER-2019)
-
-### More Courses and Videos From in28Minutes
-- https://github.com/in28minutes/learn
+in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
