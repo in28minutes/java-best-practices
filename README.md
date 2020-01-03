@@ -2,23 +2,35 @@
 
 I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
 
-> in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
+## Helping You Master Cloud, Full Stack and Microservices 
 
-## Youtube Playlists - 500+ Videos
+> **30** Courses, **5** Learning Paths & **350K** Learners 
 
-[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
+You do not learn to drive by watching Tom Cruise drive at 300 kmph! You have to **get your hands dirty**.
 
-## Top 5 Recommended Courses
+At in28minutes, **Our goal** is to help you learn and re-skill Spring Boot, Microservices, Full Stack, Cloud (AWS), Docker and Kubernetes with **hands-on, practical courses**.
 
-[![Image](https://www.springboottutorial.com/images/Course-KubernetesCrashCourse.png "Kubernetes Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/kubernetes-crash-course-for-java-developers/?couponCode=NOVEMBER-2019)
+We have build solutions to help you master Cloud, Full Stack and Microservices in **1-3 Months**.
 
-[![Image](https://www.springboottutorial.com/images/Course-DockerCrashCourseForJavaSpringBootDevelopers.png "Docker Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/docker-course-with-java-and-spring-boot-for-beginners/?couponCode=NOVEMBER-2019)
+You can check out all our courses here - [https://github.com/in28minutes/learn](https://github.com/in28minutes/learn)
 
-[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-Spring-Boot-and-React.png "Go Full Stack with Spring Boot and React")](https://www.udemy.com/course/full-stack-application-with-spring-boot-and-react/?couponCode=NOVEMBER-2019)
+## Learn from the Top 5 Best Selling Courses
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/?couponCode=NOVEMBER-2019)
+- [Kubernetes for Java Developers on Google Cloud](https://rebrand.ly/SBT-Footer-Kubernetes)
+- [Docker for Java Developers - with Spring Boot Microservices](https://rebrand.ly/SBT-Footer-Docker)
+- [Learn AWS - Deploy Java Spring Boot to AWS Elastic Beanstalk](https://rebrand.ly/SBT-Footer-AWS-BeanStalk)
+- [Master Microservices with Spring Boot and Spring Cloud](https://rebrand.ly/SBT-Footer-Microservices)
+- [Learn Java Full Stack with Spring Boot and React](https://rebrand.ly/SBT-Footer-React)
 
-[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://www.udemy.com/course/spring-tutorial-for-beginners/?couponCode=NOVEMBER-2019)
+
+## Reskill with the Amazing in28Minutes Learning Paths
+
+- [Learning Path 01 - Spring and Spring Boot Web Applications and API Developer](https://rebrand.ly/in28minutes-LP-01)
+- [Learning Path 02 - Full Stack Developer with Spring Boot, React & Angular](https://rebrand.ly/in28minutes-LP-02)
+- [Learning Path 03 - Cloud Microservices Developer with Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-03)
+- [Learning Path 04 - Learn Cloud with Spring Boot, AWS, Azure and PCF](https://rebrand.ly/in28minutes-LP-04)
+- [Learning Path 05 - Learn AWS with Microservices, Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-05)
+
 
 
 # Java Best Practices
