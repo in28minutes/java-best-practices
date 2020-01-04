@@ -16,20 +16,20 @@ You can check out all our courses here - [https://github.com/in28minutes/learn](
 
 ## Learn from the Top 5 Best Selling Courses
 
-- [Kubernetes for Java Developers on Google Cloud](https://rebrand.ly/SBT-Footer-Kubernetes)
-- [Docker for Java Developers - with Spring Boot Microservices](https://rebrand.ly/SBT-Footer-Docker)
-- [Learn AWS - Deploy Java Spring Boot to AWS Elastic Beanstalk](https://rebrand.ly/SBT-Footer-AWS-BeanStalk)
-- [Master Microservices with Spring Boot and Spring Cloud](https://rebrand.ly/SBT-Footer-Microservices)
-- [Learn Java Full Stack with Spring Boot and React](https://rebrand.ly/SBT-Footer-React)
+- [Kubernetes for Java Developers on Google Cloud](https://links.in28minutes.com/SBT-Footer-Kubernetes)
+- [Docker for Java Developers - with Spring Boot Microservices](https://links.in28minutes.com/SBT-Footer-Docker)
+- [Learn AWS - Deploy Java Spring Boot to AWS Elastic Beanstalk](https://links.in28minutes.com/SBT-Footer-AWS-BeanStalk)
+- [Master Microservices with Spring Boot and Spring Cloud](https://links.in28minutes.com/SBT-Footer-Microservices)
+- [Learn Java Full Stack with Spring Boot and React](https://links.in28minutes.com/SBT-Footer-React)
 
 
 ## Reskill with the Amazing in28Minutes Learning Paths
 
-- [Learning Path 01 - Spring and Spring Boot Web Applications and API Developer](https://rebrand.ly/in28minutes-LP-01)
-- [Learning Path 02 - Full Stack Developer with Spring Boot, React & Angular](https://rebrand.ly/in28minutes-LP-02)
-- [Learning Path 03 - Cloud Microservices Developer with Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-03)
-- [Learning Path 04 - Learn Cloud with Spring Boot, AWS, Azure and PCF](https://rebrand.ly/in28minutes-LP-04)
-- [Learning Path 05 - Learn AWS with Microservices, Docker and Kubernetes](https://rebrand.ly/in28minutes-LP-05)
+- [Learning Path 01 - Spring and Spring Boot Web Applications and API Developer](https://links.in28minutes.com/in28minutes-LP-01)
+- [Learning Path 02 - Full Stack Developer with Spring Boot, React & Angular](https://links.in28minutes.com/in28minutes-LP-02)
+- [Learning Path 03 - Cloud Microservices Developer with Docker and Kubernetes](https://links.in28minutes.com/in28minutes-LP-03)
+- [Learning Path 04 - Learn Cloud with Spring Boot, AWS, Azure and PCF](https://links.in28minutes.com/in28minutes-LP-04)
+- [Learning Path 05 - Learn AWS with Microservices, Docker and Kubernetes](https://links.in28minutes.com/in28minutes-LP-05)
 
 
 
