@@ -2,27 +2,17 @@
 
 I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
 
-## Helping You Master Cloud, Full Stack and Microservices 
-
-> **30** Courses, **5** Learning Paths & **350K** Learners 
-
-You do not learn to drive by watching Tom Cruise drive at 300 kmph! You have to **get your hands dirty**.
-
-At in28minutes, **Our goal** is to help you learn and re-skill Spring Boot, Microservices, Full Stack, Cloud (AWS), Docker and Kubernetes with **hands-on, practical courses**.
-
-We have build solutions to help you master Cloud, Full Stack and Microservices in **1-3 Months**.
-
-You can check out all our courses here - [https://github.com/in28minutes/learn](https://github.com/in28minutes/learn)
-
 ## Learn from the Top 5 Best Selling Courses
 
-- [Become AWS Certified Solution Architect Associate](https://links.in28minutes.com/aws-architect-associate-certification)
-- [Master DevOps with Docker, Kubernetes and Azure DevOps](https://links.in28minutes.com/DevOps-SBT)
-- [Kubernetes for Java Developers on Google Cloud](https://links.in28minutes.com/SBT-Footer-Kubernetes)
-- [Docker for Java Developers - with Spring Boot Microservices](https://links.in28minutes.com/SBT-Footer-Docker)
-- [Learn AWS - Deploy Java Spring Boot to AWS Elastic Beanstalk](https://links.in28minutes.com/SBT-Footer-AWS-BeanStalk)
-- [Master Microservices with Spring Boot and Spring Cloud](https://links.in28minutes.com/SBT-Footer-Microservices)
-- [Learn Java Full Stack with Spring Boot and React](https://links.in28minutes.com/SBT-Footer-React)
+[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://links.in28minutes.com/in28minutes-Microservices)
+
+[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://links.in28minutes.com/in28minutes-Spring)
+
+[![Image](https://www.springboottutorial.com/images/Course-DevOps.png "DevOps Course")](https://links.in28minutes.com/DevOps-SBT)
+
+[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-SpringBoot-And-Angular.png "Go Full Stack with Spring Boot and Angular")](https://links.in28minutes.com/in28minutes-angular)
+
+[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-Spring-Boot-and-React.png "Go Full Stack with Spring Boot and React")](https://links.in28minutes.com/in28minutes-React)
 
 
 ## Reskill with the Amazing in28Minutes Learning Paths
