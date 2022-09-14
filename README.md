@@ -2,30 +2,17 @@
 
 I've been Programming, Designing and Architecting Java applications for 15 years. I would like this page to serve as a good starting point for programmers to understand what it takes to build good applications. I would talk about Best practices and Frequently asked questions in Coding, Designing and Architecting Java Applications. 
 
-## Learn from the Top 5 Best Selling Courses
+## Keep Learning Every Day**
+- **1:** [FOLLOW](https://links.in28minutes.com/lin) Ranga on LinkedIn
 
-[![Image](https://www.springboottutorial.com/images/Course-clean-code.png "Clean Code with Java: Learn Simple Design, Refactoring & TDD")](https://www.udemy.com/course/java-clean-code-with-refactoring-and-tdd/?referralCode=201A00544D2D754A688F)
-
-[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://links.in28minutes.com/in28minutes-Microservices)
-
-[![Image](https://www.springboottutorial.com/images/Course-Spring-Framework-Master-Class---Beginner-to-Expert.png "Spring Master Class - Beginner to Expert")](https://links.in28minutes.com/in28minutes-Spring)
-
-[![Image](https://www.springboottutorial.com/images/Course-DevOps.png "DevOps Course")](https://links.in28minutes.com/DevOps-SBT)
-[![Image](https://www.springboottutorial.com/images/Course-go-serverless.png "Go Serverless with AWS Lambda and Azure Functions")](https://links.in28minutes.com/serverless-sbt)
-
-[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-SpringBoot-And-Angular.png "Go Full Stack with Spring Boot and Angular")](https://links.in28minutes.com/in28minutes-angular)
-
-[![Image](https://www.springboottutorial.com/images/Course-Go-Full-Stack-With-Spring-Boot-and-React.png "Go Full Stack with Spring Boot and React")](https://links.in28minutes.com/in28minutes-React)
-
-
-## Reskill with the Amazing in28Minutes Learning Paths
-
-- [Learning Path 01 - Spring and Spring Boot Web Applications and API Developer](https://links.in28minutes.com/in28minutes-LP-01)
-- [Learning Path 02 - Full Stack Developer with Spring Boot, React & Angular](https://links.in28minutes.com/in28minutes-LP-02)
-- [Learning Path 03 - Cloud Microservices Developer with Docker and Kubernetes](https://links.in28minutes.com/in28minutes-LP-03)
-- [Learning Path 04 - Learn Cloud with Spring Boot, AWS, Azure and PCF](https://links.in28minutes.com/in28minutes-LP-04)
-- [Learning Path 05 - Learn AWS with Microservices, Docker and Kubernetes](https://links.in28minutes.com/in28minutes-LP-05)
-
+## Check Out Our Amazing ROADMAPS
+- **1:** [AWS Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#aws-roadmap)
+- **2:** [Azure Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#azure-roadmap)
+- **3:** [Google Cloud Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#google-cloud-roadmap)
+- **4:** [Cloud Beginner Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#cloud-beginner-roadmap)
+- **5:** [DevOps Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#devops-roadmap)
+- **6:** [Java Full Stack Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#java-full-stack-roadmap)
+- **7:** [Java Microservices Roadmap](https://github.com/in28minutes/roadmaps/blob/main/README.md#java-microservices-roadmap)
 
 
 # Java Best Practices
